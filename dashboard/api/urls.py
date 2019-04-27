@@ -17,8 +17,6 @@ from django.contrib import admin
 from django.urls import path, include
 from . import views
 
-app_name = 'dashboard'
 urlpatterns = [
-    path('', views.index, name='index'),
-    path('api/', include('dashboard.api.urls')),
+    path('get-detail-country-gold-medals/', views.get_detail_country_gold_medals, name='detail-country-gold-medals'),
 ]
