@@ -21,7 +21,7 @@
         <div class="page-content">
             <div class="tab-content content-1">
                 <div class="col-lg-6">
-                    <div id="bar-chart"></div>
+                    <div id="indonesia-bubble-chart"></div>
                 </div>
                 <div class="col-lg-5">
                     BD
@@ -61,6 +61,7 @@
         </div>
     </div>
 </body>
+<script src="{% static "js/index-tab-1.js" %}"></script>
 <script src="{% static "js/index-tab-2.js" %}"></script>
 <script>
     // Script for apex charts
@@ -81,6 +82,8 @@
     };
     var barChart = new ApexCharts(document.querySelector('#bar-chart'), barChartOptions);
     barChart.render();
+
+
     $('.tab').click(function() {
         const elClassName = this.className.split(/\s+/)[1];
         const elIdentifier = elClassName.split('-')[1];
