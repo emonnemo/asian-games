@@ -1,0 +1,2951 @@
+[
+    {
+        "Tahun": "1982",
+        "Tuan Rumah": "India",
+        "Data": [
+            {
+                "Nomor": "1",
+                "Negara": "China",
+                "Emas": "61",
+                "Perak": "51",
+                "Perunggu": "41",
+                "Total": "153",
+                "Peringkat": "1"
+            },
+            {
+                "Nomor": "2",
+                "Negara": "Jepang",
+                "Emas": "57",
+                "Perak": "52",
+                "Perunggu": "44",
+                "Total": "153",
+                "Peringkat": "2"
+            },
+            {
+                "Nomor": "3",
+                "Negara": "Korea Selatan",
+                "Emas": "28",
+                "Perak": "28",
+                "Perunggu": "37",
+                "Total": "93",
+                "Peringkat": "3"
+            },
+            {
+                "Nomor": "4",
+                "Negara": "Korea Utara",
+                "Emas": "17",
+                "Perak": "19",
+                "Perunggu": "20",
+                "Total": "56",
+                "Peringkat": "5"
+            },
+            {
+                "Nomor": "5",
+                "Negara": "India",
+                "Emas": "13",
+                "Perak": "19",
+                "Perunggu": "25",
+                "Total": "57",
+                "Peringkat": "4"
+            },
+            {
+                "Nomor": "6",
+                "Negara": "Indonesia",
+                "Emas": "4",
+                "Perak": "4",
+                "Perunggu": "7",
+                "Total": "15",
+                "Peringkat": "6"
+            },
+            {
+                "Nomor": "7",
+                "Negara": "Iran",
+                "Emas": "4",
+                "Perak": "4",
+                "Perunggu": "4",
+                "Total": "12",
+                "Peringkat": "8"
+            },
+            {
+                "Nomor": "8",
+                "Negara": "Pakistan",
+                "Emas": "3",
+                "Perak": "3",
+                "Perunggu": "5",
+                "Total": "11",
+                "Peringkat": "9"
+            },
+            {
+                "Nomor": "9",
+                "Negara": "Mongolia",
+                "Emas": "3",
+                "Perak": "3",
+                "Perunggu": "1",
+                "Total": "7",
+                "Peringkat": "12"
+            },
+            {
+                "Nomor": "10",
+                "Negara": "Filipina",
+                "Emas": "2",
+                "Perak": "3",
+                "Perunggu": "9",
+                "Total": "14",
+                "Peringkat": "7"
+            },
+            {
+                "Nomor": "11",
+                "Negara": "Irak",
+                "Emas": "2",
+                "Perak": "3",
+                "Perunggu": "4",
+                "Total": "9",
+                "Peringkat": "11"
+            },
+            {
+                "Nomor": "12",
+                "Negara": "Thailand",
+                "Emas": "1",
+                "Perak": "5",
+                "Perunggu": "4",
+                "Total": "10",
+                "Peringkat": "10"
+            },
+            {
+                "Nomor": "13",
+                "Negara": "Kuwait",
+                "Emas": "1",
+                "Perak": "3",
+                "Perunggu": "3",
+                "Total": "7",
+                "Peringkat": "13"
+            },
+            {
+                "Nomor": "14",
+                "Negara": "Suriah",
+                "Emas": "1",
+                "Perak": "1",
+                "Perunggu": "1",
+                "Total": "3",
+                "Peringkat": "15"
+            },
+            {
+                "Nomor": "15",
+                "Negara": "Malaysia",
+                "Emas": "1",
+                "Perak": "0",
+                "Perunggu": "3",
+                "Total": "4",
+                "Peringkat": "14"
+            },
+            {
+                "Nomor": "16",
+                "Negara": "Singapura",
+                "Emas": "1",
+                "Perak": "0",
+                "Perunggu": "2",
+                "Total": "3",
+                "Peringkat": "16"
+            },
+            {
+                "Nomor": "17",
+                "Negara": "Afganistan",
+                "Emas": "0",
+                "Perak": "1",
+                "Perunggu": "0",
+                "Total": "1",
+                "Peringkat": "17"
+            },
+            {
+                "Nomor": "18",
+                "Negara": "Lebanon",
+                "Emas": "0",
+                "Perak": "1",
+                "Perunggu": "0",
+                "Total": "1",
+                "Peringkat": "18"
+            },
+            {
+                "Nomor": "19",
+                "Negara": "Bahrain",
+                "Emas": "0",
+                "Perak": "0",
+                "Perunggu": "1",
+                "Total": "1",
+                "Peringkat": "19"
+            },
+            {
+                "Nomor": "20",
+                "Negara": "Hong Kong",
+                "Emas": "0",
+                "Perak": "0",
+                "Perunggu": "1",
+                "Total": "1",
+                "Peringkat": "20"
+            },
+            {
+                "Nomor": "21",
+                "Negara": "Qatar",
+                "Emas": "0",
+                "Perak": "0",
+                "Perunggu": "1",
+                "Total": "1",
+                "Peringkat": "21"
+            },
+            {
+                "Nomor": "22",
+                "Negara": "Vietnam",
+                "Emas": "0",
+                "Perak": "0",
+                "Perunggu": "1",
+                "Total": "1",
+                "Peringkat": "22"
+            },
+            {
+                "Nomor": "23",
+                "Negara": "Arab Saudi",
+                "Emas": "0",
+                "Perak": "0",
+                "Perunggu": "1",
+                "Total": "1",
+                "Peringkat": "23"
+            }
+        ]
+    },
+    {
+        "Tahun": "1986",
+        "Tuan Rumah": "Korea Selatan",
+        "Data": [
+            {
+                "Nomor": "1",
+                "Negara": "China",
+                "Emas": "94",
+                "Perak": "82",
+                "Perunggu": "46",
+                "Total": "222",
+                "Peringkat": "2"
+            },
+            {
+                "Nomor": "2",
+                "Negara": "Korea Selatan",
+                "Emas": "93",
+                "Perak": "55",
+                "Perunggu": "76",
+                "Total": "224",
+                "Peringkat": "1"
+            },
+            {
+                "Nomor": "3",
+                "Negara": "Jepang",
+                "Emas": "58",
+                "Perak": "76",
+                "Perunggu": "77",
+                "Total": "211",
+                "Peringkat": "3"
+            },
+            {
+                "Nomor": "4",
+                "Negara": "Iran",
+                "Emas": "6",
+                "Perak": "6",
+                "Perunggu": "10",
+                "Total": "22",
+                "Peringkat": "6"
+            },
+            {
+                "Nomor": "5",
+                "Negara": "India",
+                "Emas": "5",
+                "Perak": "9",
+                "Perunggu": "23",
+                "Total": "37",
+                "Peringkat": "4"
+            },
+            {
+                "Nomor": "6",
+                "Negara": "Filipina",
+                "Emas": "4",
+                "Perak": "5",
+                "Perunggu": "9",
+                "Total": "18",
+                "Peringkat": "7"
+            },
+            {
+                "Nomor": "7",
+                "Negara": "Thailand",
+                "Emas": "3",
+                "Perak": "10",
+                "Perunggu": "13",
+                "Total": "26",
+                "Peringkat": "5"
+            },
+            {
+                "Nomor": "8",
+                "Negara": "Pakistan",
+                "Emas": "2",
+                "Perak": "3",
+                "Perunggu": "4",
+                "Total": "9",
+                "Peringkat": "10"
+            },
+            {
+                "Nomor": "9",
+                "Negara": "Indonesia",
+                "Emas": "1",
+                "Perak": "5",
+                "Perunggu": "4",
+                "Total": "10",
+                "Peringkat": "8"
+            },
+            {
+                "Nomor": "10",
+                "Negara": "Hong Kong",
+                "Emas": "1",
+                "Perak": "1",
+                "Perunggu": "3",
+                "Total": "5",
+                "Peringkat": "14"
+            },
+            {
+                "Nomor": "11",
+                "Negara": "Qatar",
+                "Emas": "1",
+                "Perak": "0",
+                "Perunggu": "3",
+                "Total": "4",
+                "Peringkat": "16"
+            },
+            {
+                "Nomor": "12",
+                "Negara": "Lebanon",
+                "Emas": "1",
+                "Perak": "0",
+                "Perunggu": "1",
+                "Total": "2",
+                "Peringkat": "18"
+            },
+            {
+                "Nomor": "13",
+                "Negara": "Bahrain",
+                "Emas": "1",
+                "Perak": "0",
+                "Perunggu": "1",
+                "Total": "2",
+                "Peringkat": "19"
+            },
+            {
+                "Nomor": "14",
+                "Negara": "Malaysia",
+                "Emas": "0",
+                "Perak": "5",
+                "Perunggu": "5",
+                "Total": "10",
+                "Peringkat": "9"
+            },
+            {
+                "Nomor": "15",
+                "Negara": "Irak",
+                "Emas": "0",
+                "Perak": "5",
+                "Perunggu": "2",
+                "Total": "7",
+                "Peringkat": "13"
+            },
+            {
+                "Nomor": "16",
+                "Negara": "Yordania",
+                "Emas": "0",
+                "Perak": "3",
+                "Perunggu": "1",
+                "Total": "4",
+                "Peringkat": "17"
+            },
+            {
+                "Nomor": "17",
+                "Negara": "Kuwait",
+                "Emas": "0",
+                "Perak": "1",
+                "Perunggu": "7",
+                "Total": "8",
+                "Peringkat": "11"
+            },
+            {
+                "Nomor": "18",
+                "Negara": "Singapura",
+                "Emas": "0",
+                "Perak": "1",
+                "Perunggu": "4",
+                "Total": "5",
+                "Peringkat": "15"
+            },
+            {
+                "Nomor": "19",
+                "Negara": "Arab Saudi",
+                "Emas": "0",
+                "Perak": "1",
+                "Perunggu": "0",
+                "Total": "1",
+                "Peringkat": "20"
+            },
+            {
+                "Nomor": "20",
+                "Negara": "Nepal",
+                "Emas": "0",
+                "Perak": "0",
+                "Perunggu": "8",
+                "Total": "8",
+                "Peringkat": "12"
+            },
+            {
+                "Nomor": "21",
+                "Negara": "Bangladesh",
+                "Emas": "0",
+                "Perak": "0",
+                "Perunggu": "1",
+                "Total": "1",
+                "Peringkat": "21"
+            },
+            {
+                "Nomor": "22",
+                "Negara": "Oman",
+                "Emas": "0",
+                "Perak": "0",
+                "Perunggu": "1",
+                "Total": "1",
+                "Peringkat": "22"
+            }
+        ]
+    },
+    {
+        "Tahun": "1990",
+        "Tuan Rumah": "China",
+        "Data": [
+            {
+                "Nomor": "1",
+                "Negara": "Malaysia",
+                "Emas": "2",
+                "Perak": "2",
+                "Perunggu": "4",
+                "Total": "8",
+                "Peringkat": "13"
+            },
+            {
+                "Nomor": "2",
+                "Negara": "Jepang",
+                "Emas": "38",
+                "Perak": "60",
+                "Perunggu": "76",
+                "Total": "174",
+                "Peringkat": "3"
+            },
+            {
+                "Nomor": "3",
+                "Negara": "Taiwan",
+                "Emas": "0",
+                "Perak": "10",
+                "Perunggu": "21",
+                "Total": "31",
+                "Peringkat": "5"
+            },
+            {
+                "Nomor": "4",
+                "Negara": "Pakistan",
+                "Emas": "4",
+                "Perak": "1",
+                "Perunggu": "7",
+                "Total": "12",
+                "Peringkat": "11"
+            },
+            {
+                "Nomor": "5",
+                "Negara": "Qatar",
+                "Emas": "3",
+                "Perak": "2",
+                "Perunggu": "1",
+                "Total": "6",
+                "Peringkat": "15"
+            },
+            {
+                "Nomor": "6",
+                "Negara": "India",
+                "Emas": "1",
+                "Perak": "8",
+                "Perunggu": "14",
+                "Total": "23",
+                "Peringkat": "7"
+            },
+            {
+                "Nomor": "7",
+                "Negara": "Indonesia",
+                "Emas": "3",
+                "Perak": "6",
+                "Perunggu": "21",
+                "Total": "30",
+                "Peringkat": "6"
+            },
+            {
+                "Nomor": "8",
+                "Negara": "Nepal",
+                "Emas": "0",
+                "Perak": "0",
+                "Perunggu": "1",
+                "Total": "1",
+                "Peringkat": "20"
+            },
+            {
+                "Nomor": "9",
+                "Negara": "Laos",
+                "Emas": "0",
+                "Perak": "0",
+                "Perunggu": "1",
+                "Total": "1",
+                "Peringkat": "21"
+            },
+            {
+                "Nomor": "10",
+                "Negara": "Iran",
+                "Emas": "4",
+                "Perak": "6",
+                "Perunggu": "8",
+                "Total": "18",
+                "Peringkat": "8"
+            },
+            {
+                "Nomor": "11",
+                "Negara": "Oman",
+                "Emas": "1",
+                "Perak": "0",
+                "Perunggu": "0",
+                "Total": "1",
+                "Peringkat": "22"
+            },
+            {
+                "Nomor": "12",
+                "Negara": "Arab Saudi",
+                "Emas": "0",
+                "Perak": "0",
+                "Perunggu": "1",
+                "Total": "1",
+                "Peringkat": "23"
+            },
+            {
+                "Nomor": "13",
+                "Negara": "Bangladesh",
+                "Emas": "0",
+                "Perak": "1",
+                "Perunggu": "0",
+                "Total": "1",
+                "Peringkat": "24"
+            },
+            {
+                "Nomor": "14",
+                "Negara": "Hong Kong",
+                "Emas": "0",
+                "Perak": "2",
+                "Perunggu": "5",
+                "Total": "7",
+                "Peringkat": "14"
+            },
+            {
+                "Nomor": "15",
+                "Negara": "Suriah",
+                "Emas": "1",
+                "Perak": "0",
+                "Perunggu": "2",
+                "Total": "3",
+                "Peringkat": "17"
+            },
+            {
+                "Nomor": "16",
+                "Negara": "Thailand",
+                "Emas": "2",
+                "Perak": "7",
+                "Perunggu": "8",
+                "Total": "17",
+                "Peringkat": "9"
+            },
+            {
+                "Nomor": "17",
+                "Negara": "Filipina",
+                "Emas": "1",
+                "Perak": "2",
+                "Perunggu": "7",
+                "Total": "10",
+                "Peringkat": "12"
+            },
+            {
+                "Nomor": "18",
+                "Negara": "Korea Utara",
+                "Emas": "12",
+                "Perak": "31",
+                "Perunggu": "39",
+                "Total": "82",
+                "Peringkat": "4"
+            },
+            {
+                "Nomor": "19",
+                "Negara": "Sri Lanka",
+                "Emas": "0",
+                "Perak": "2",
+                "Perunggu": "1",
+                "Total": "3",
+                "Peringkat": "18"
+            },
+            {
+                "Nomor": "20",
+                "Negara": "Korea Selatan",
+                "Emas": "54",
+                "Perak": "54",
+                "Perunggu": "73",
+                "Total": "181",
+                "Peringkat": "2"
+            },
+            {
+                "Nomor": "21",
+                "Negara": "Myanmar",
+                "Emas": "0",
+                "Perak": "0",
+                "Perunggu": "2",
+                "Total": "2",
+                "Peringkat": "19"
+            },
+            {
+                "Nomor": "22",
+                "Negara": "Mongolia",
+                "Emas": "1",
+                "Perak": "7",
+                "Perunggu": "9",
+                "Total": "17",
+                "Peringkat": "10"
+            },
+            {
+                "Nomor": "23",
+                "Negara": "Singapura",
+                "Emas": "0",
+                "Perak": "1",
+                "Perunggu": "4",
+                "Total": "5",
+                "Peringkat": "16"
+            },
+            {
+                "Nomor": "24",
+                "Negara": "Makau",
+                "Emas": "0",
+                "Perak": "0",
+                "Perunggu": "1",
+                "Total": "1",
+                "Peringkat": "25"
+            },
+            {
+                "Nomor": "25",
+                "Negara": "China",
+                "Emas": "183",
+                "Perak": "107",
+                "Perunggu": "51",
+                "Total": "341",
+                "Peringkat": "1"
+            }
+        ]
+    },
+    {
+        "Tahun": "1994",
+        "Tuan Rumah": "Jepang",
+        "Data": [
+            {
+                "Nomor": "1",
+                "Negara": "Bangladesh",
+                "Emas": "0",
+                "Perak": "1",
+                "Perunggu": "0",
+                "Total": "1",
+                "Peringkat": "32"
+            },
+            {
+                "Nomor": "2",
+                "Negara": "Brunei Darussalam",
+                "Emas": "0",
+                "Perak": "0",
+                "Perunggu": "2",
+                "Total": "2",
+                "Peringkat": "26"
+            },
+            {
+                "Nomor": "3",
+                "Negara": "China",
+                "Emas": "125",
+                "Perak": "83",
+                "Perunggu": "58",
+                "Total": "266",
+                "Peringkat": "1"
+            },
+            {
+                "Nomor": "4",
+                "Negara": "Hong Kong",
+                "Emas": "0",
+                "Perak": "5",
+                "Perunggu": "7",
+                "Total": "12",
+                "Peringkat": "14"
+            },
+            {
+                "Nomor": "5",
+                "Negara": "Indonesia",
+                "Emas": "3",
+                "Perak": "12",
+                "Perunggu": "11",
+                "Total": "26",
+                "Peringkat": "7"
+            },
+            {
+                "Nomor": "6",
+                "Negara": "India",
+                "Emas": "4",
+                "Perak": "3",
+                "Perunggu": "15",
+                "Total": "22",
+                "Peringkat": "10"
+            },
+            {
+                "Nomor": "7",
+                "Negara": "Iran",
+                "Emas": "9",
+                "Perak": "9",
+                "Perunggu": "8",
+                "Total": "26",
+                "Peringkat": "8"
+            },
+            {
+                "Nomor": "8",
+                "Negara": "Yordania",
+                "Emas": "0",
+                "Perak": "2",
+                "Perunggu": "2",
+                "Total": "4",
+                "Peringkat": "23"
+            },
+            {
+                "Nomor": "9",
+                "Negara": "Jepang",
+                "Emas": "64",
+                "Perak": "75",
+                "Perunggu": "79",
+                "Total": "218",
+                "Peringkat": "2"
+            },
+            {
+                "Nomor": "10",
+                "Negara": "Kazakhstan",
+                "Emas": "25",
+                "Perak": "26",
+                "Perunggu": "26",
+                "Total": "77",
+                "Peringkat": "4"
+            },
+            {
+                "Nomor": "11",
+                "Negara": "Kirgiztan",
+                "Emas": "0",
+                "Perak": "4",
+                "Perunggu": "5",
+                "Total": "9",
+                "Peringkat": "16"
+            },
+            {
+                "Nomor": "12",
+                "Negara": "Korea Selatan",
+                "Emas": "63",
+                "Perak": "56",
+                "Perunggu": "64",
+                "Total": "183",
+                "Peringkat": "3"
+            },
+            {
+                "Nomor": "13",
+                "Negara": "Kuwait",
+                "Emas": "3",
+                "Perak": "1",
+                "Perunggu": "5",
+                "Total": "9",
+                "Peringkat": "17"
+            },
+            {
+                "Nomor": "14",
+                "Negara": "Makau",
+                "Emas": "0",
+                "Perak": "1",
+                "Perunggu": "1",
+                "Total": "2",
+                "Peringkat": "27"
+            },
+            {
+                "Nomor": "15",
+                "Negara": "Malaysia",
+                "Emas": "4",
+                "Perak": "2",
+                "Perunggu": "13",
+                "Total": "19",
+                "Peringkat": "12"
+            },
+            {
+                "Nomor": "16",
+                "Negara": "Mongolia",
+                "Emas": "1",
+                "Perak": "2",
+                "Perunggu": "6",
+                "Total": "9",
+                "Peringkat": "18"
+            },
+            {
+                "Nomor": "17",
+                "Negara": "Myanmar",
+                "Emas": "0",
+                "Perak": "0",
+                "Perunggu": "2",
+                "Total": "2",
+                "Peringkat": "28"
+            },
+            {
+                "Nomor": "18",
+                "Negara": "Nepal",
+                "Emas": "0",
+                "Perak": "0",
+                "Perunggu": "2",
+                "Total": "2",
+                "Peringkat": "29"
+            },
+            {
+                "Nomor": "19",
+                "Negara": "Pakistan",
+                "Emas": "0",
+                "Perak": "4",
+                "Perunggu": "6",
+                "Total": "10",
+                "Peringkat": "15"
+            },
+            {
+                "Nomor": "20",
+                "Negara": "Filipina",
+                "Emas": "3",
+                "Perak": "2",
+                "Perunggu": "8",
+                "Total": "13",
+                "Peringkat": "13"
+            },
+            {
+                "Nomor": "21",
+                "Negara": "Qatar",
+                "Emas": "4",
+                "Perak": "1",
+                "Perunggu": "15",
+                "Total": "20",
+                "Peringkat": "11"
+            },
+            {
+                "Nomor": "22",
+                "Negara": "Arab Saudi",
+                "Emas": "1",
+                "Perak": "3",
+                "Perunggu": "5",
+                "Total": "9",
+                "Peringkat": "19"
+            },
+            {
+                "Nomor": "23",
+                "Negara": "Singapura",
+                "Emas": "1",
+                "Perak": "1",
+                "Perunggu": "5",
+                "Total": "7",
+                "Peringkat": "20"
+            },
+            {
+                "Nomor": "24",
+                "Negara": "Sri Lanka",
+                "Emas": "0",
+                "Perak": "1",
+                "Perunggu": "1",
+                "Total": "2",
+                "Peringkat": "30"
+            },
+            {
+                "Nomor": "25",
+                "Negara": "Suriah",
+                "Emas": "3",
+                "Perak": "3",
+                "Perunggu": "1",
+                "Total": "7",
+                "Peringkat": "21"
+            },
+            {
+                "Nomor": "26",
+                "Negara": "Thailand",
+                "Emas": "3",
+                "Perak": "9",
+                "Perunggu": "13",
+                "Total": "25",
+                "Peringkat": "9"
+            },
+            {
+                "Nomor": "27",
+                "Negara": "Tajikistan",
+                "Emas": "0",
+                "Perak": "0",
+                "Perunggu": "2",
+                "Total": "2",
+                "Peringkat": "31"
+            },
+            {
+                "Nomor": "28",
+                "Negara": "Turkmenistan",
+                "Emas": "1",
+                "Perak": "3",
+                "Perunggu": "3",
+                "Total": "7",
+                "Peringkat": "22"
+            },
+            {
+                "Nomor": "29",
+                "Negara": "Taiwan",
+                "Emas": "7",
+                "Perak": "12",
+                "Perunggu": "24",
+                "Total": "43",
+                "Peringkat": "5"
+            },
+            {
+                "Nomor": "30",
+                "Negara": "Uni Emirat Arab",
+                "Emas": "0",
+                "Perak": "1",
+                "Perunggu": "3",
+                "Total": "4",
+                "Peringkat": "24"
+            },
+            {
+                "Nomor": "31",
+                "Negara": "Uzbekistan",
+                "Emas": "10",
+                "Perak": "11",
+                "Perunggu": "19",
+                "Total": "40",
+                "Peringkat": "6"
+            },
+            {
+                "Nomor": "32",
+                "Negara": "Vietnam",
+                "Emas": "1",
+                "Perak": "2",
+                "Perunggu": "0",
+                "Total": "3",
+                "Peringkat": "25"
+            }
+        ]
+    },
+    {
+        "Tahun": "1998",
+        "Tuan Rumah": "Thailand",
+        "Data": [
+            {
+                "Nomor": "1",
+                "Negara": "Bangladesh",
+                "Emas": "0",
+                "Perak": "0",
+                "Perunggu": "1",
+                "Total": "1",
+                "Peringkat": "28"
+            },
+            {
+                "Nomor": "2",
+                "Negara": "Brunei Darussalam",
+                "Emas": "0",
+                "Perak": "0",
+                "Perunggu": "1",
+                "Total": "1",
+                "Peringkat": "29"
+            },
+            {
+                "Nomor": "3",
+                "Negara": "China",
+                "Emas": "129",
+                "Perak": "78",
+                "Perunggu": "67",
+                "Total": "274",
+                "Peringkat": "1"
+            },
+            {
+                "Nomor": "4",
+                "Negara": "Hong Kong",
+                "Emas": "5",
+                "Perak": "6",
+                "Perunggu": "6",
+                "Total": "17",
+                "Peringkat": "14"
+            },
+            {
+                "Nomor": "5",
+                "Negara": "Indonesia",
+                "Emas": "6",
+                "Perak": "10",
+                "Perunggu": "11",
+                "Total": "27",
+                "Peringkat": "12"
+            },
+            {
+                "Nomor": "6",
+                "Negara": "India",
+                "Emas": "7",
+                "Perak": "11",
+                "Perunggu": "17",
+                "Total": "35",
+                "Peringkat": "8"
+            },
+            {
+                "Nomor": "7",
+                "Negara": "Iran",
+                "Emas": "10",
+                "Perak": "11",
+                "Perunggu": "13",
+                "Total": "34",
+                "Peringkat": "9"
+            },
+            {
+                "Nomor": "8",
+                "Negara": "Yordania",
+                "Emas": "0",
+                "Perak": "3",
+                "Perunggu": "2",
+                "Total": "5",
+                "Peringkat": "25"
+            },
+            {
+                "Nomor": "9",
+                "Negara": "Jepang",
+                "Emas": "52",
+                "Perak": "61",
+                "Perunggu": "68",
+                "Total": "181",
+                "Peringkat": "2"
+            },
+            {
+                "Nomor": "10",
+                "Negara": "Kazakhstan",
+                "Emas": "24",
+                "Perak": "24",
+                "Perunggu": "32",
+                "Total": "80",
+                "Peringkat": "5"
+            },
+            {
+                "Nomor": "11",
+                "Negara": "Kirgiztan",
+                "Emas": "0",
+                "Perak": "3",
+                "Perunggu": "3",
+                "Total": "6",
+                "Peringkat": "22"
+            },
+            {
+                "Nomor": "12",
+                "Negara": "Korea Selatan",
+                "Emas": "66",
+                "Perak": "43",
+                "Perunggu": "53",
+                "Total": "162",
+                "Peringkat": "3"
+            },
+            {
+                "Nomor": "13",
+                "Negara": "Kuwait",
+                "Emas": "4",
+                "Perak": "6",
+                "Perunggu": "4",
+                "Total": "14",
+                "Peringkat": "17"
+            },
+            {
+                "Nomor": "14",
+                "Negara": "Laos",
+                "Emas": "0",
+                "Perak": "0",
+                "Perunggu": "1",
+                "Total": "1",
+                "Peringkat": "30"
+            },
+            {
+                "Nomor": "15",
+                "Negara": "Makau",
+                "Emas": "0",
+                "Perak": "1",
+                "Perunggu": "0",
+                "Total": "1",
+                "Peringkat": "31"
+            },
+            {
+                "Nomor": "16",
+                "Negara": "Malaysia",
+                "Emas": "5",
+                "Perak": "10",
+                "Perunggu": "14",
+                "Total": "29",
+                "Peringkat": "11"
+            },
+            {
+                "Nomor": "17",
+                "Negara": "Mongolia",
+                "Emas": "2",
+                "Perak": "2",
+                "Perunggu": "10",
+                "Total": "14",
+                "Peringkat": "18"
+            },
+            {
+                "Nomor": "18",
+                "Negara": "Myanmar",
+                "Emas": "1",
+                "Perak": "6",
+                "Perunggu": "4",
+                "Total": "11",
+                "Peringkat": "20"
+            },
+            {
+                "Nomor": "19",
+                "Negara": "Nepal",
+                "Emas": "0",
+                "Perak": "1",
+                "Perunggu": "3",
+                "Total": "4",
+                "Peringkat": "26"
+            },
+            {
+                "Nomor": "20",
+                "Negara": "Oman",
+                "Emas": "0",
+                "Perak": "0",
+                "Perunggu": "1",
+                "Total": "1",
+                "Peringkat": "32"
+            },
+            {
+                "Nomor": "21",
+                "Negara": "Pakistan",
+                "Emas": "2",
+                "Perak": "4",
+                "Perunggu": "8",
+                "Total": "14",
+                "Peringkat": "19"
+            },
+            {
+                "Nomor": "22",
+                "Negara": "Filipina",
+                "Emas": "1",
+                "Perak": "5",
+                "Perunggu": "12",
+                "Total": "18",
+                "Peringkat": "13"
+            },
+            {
+                "Nomor": "23",
+                "Negara": "Korea Utara",
+                "Emas": "6",
+                "Perak": "12",
+                "Perunggu": "15",
+                "Total": "33",
+                "Peringkat": "10"
+            },
+            {
+                "Nomor": "24",
+                "Negara": "Qatar",
+                "Emas": "2",
+                "Perak": "3",
+                "Perunggu": "3",
+                "Total": "8",
+                "Peringkat": "21"
+            },
+            {
+                "Nomor": "25",
+                "Negara": "Singapura",
+                "Emas": "2",
+                "Perak": "3",
+                "Perunggu": "10",
+                "Total": "15",
+                "Peringkat": "16"
+            },
+            {
+                "Nomor": "26",
+                "Negara": "Sri Lanka",
+                "Emas": "3",
+                "Perak": "0",
+                "Perunggu": "3",
+                "Total": "6",
+                "Peringkat": "23"
+            },
+            {
+                "Nomor": "27",
+                "Negara": "Suriah",
+                "Emas": "0",
+                "Perak": "2",
+                "Perunggu": "4",
+                "Total": "6",
+                "Peringkat": "24"
+            },
+            {
+                "Nomor": "28",
+                "Negara": "Thailand",
+                "Emas": "24",
+                "Perak": "28",
+                "Perunggu": "38",
+                "Total": "90",
+                "Peringkat": "4"
+            },
+            {
+                "Nomor": "29",
+                "Negara": "Turkmenistan",
+                "Emas": "1",
+                "Perak": "0",
+                "Perunggu": "1",
+                "Total": "2",
+                "Peringkat": "27"
+            },
+            {
+                "Nomor": "30",
+                "Negara": "Taiwan",
+                "Emas": "19",
+                "Perak": "17",
+                "Perunggu": "39",
+                "Total": "75",
+                "Peringkat": "6"
+            },
+            {
+                "Nomor": "31",
+                "Negara": "Uni Emirat Arab",
+                "Emas": "0",
+                "Perak": "0",
+                "Perunggu": "1",
+                "Total": "1",
+                "Peringkat": "33"
+            },
+            {
+                "Nomor": "32",
+                "Negara": "Uzbekistan",
+                "Emas": "7",
+                "Perak": "23",
+                "Perunggu": "10",
+                "Total": "40",
+                "Peringkat": "7"
+            },
+            {
+                "Nomor": "33",
+                "Negara": "Vietnam",
+                "Emas": "1",
+                "Perak": "5",
+                "Perunggu": "11",
+                "Total": "17",
+                "Peringkat": "15"
+            }
+        ]
+    },
+    {
+        "Tahun": "2002",
+        "Tuan Rumah": "Korea Selatan",
+        "Data": [
+            {
+                "Nomor": "1",
+                "Negara": "Afganistan",
+                "Emas": "0",
+                "Perak": "0",
+                "Perunggu": "1",
+                "Total": "1",
+                "Peringkat": "34"
+            },
+            {
+                "Nomor": "2",
+                "Negara": "Bangladesh",
+                "Emas": "0",
+                "Perak": "1",
+                "Perunggu": "0",
+                "Total": "1",
+                "Peringkat": "35"
+            },
+            {
+                "Nomor": "3",
+                "Negara": "Bahrain",
+                "Emas": "3",
+                "Perak": "2",
+                "Perunggu": "2",
+                "Total": "7",
+                "Peringkat": "24"
+            },
+            {
+                "Nomor": "4",
+                "Negara": "Brunei Darussalam",
+                "Emas": "0",
+                "Perak": "0",
+                "Perunggu": "1",
+                "Total": "1",
+                "Peringkat": "36"
+            },
+            {
+                "Nomor": "5",
+                "Negara": "China",
+                "Emas": "150",
+                "Perak": "84",
+                "Perunggu": "74",
+                "Total": "308",
+                "Peringkat": "1"
+            },
+            {
+                "Nomor": "6",
+                "Negara": "Korea Utara",
+                "Emas": "9",
+                "Perak": "11",
+                "Perunggu": "13",
+                "Total": "33",
+                "Peringkat": "10"
+            },
+            {
+                "Nomor": "7",
+                "Negara": "Hong Kong",
+                "Emas": "4",
+                "Perak": "6",
+                "Perunggu": "11",
+                "Total": "21",
+                "Peringkat": "14"
+            },
+            {
+                "Nomor": "8",
+                "Negara": "Indonesia",
+                "Emas": "4",
+                "Perak": "7",
+                "Perunggu": "12",
+                "Total": "23",
+                "Peringkat": "13"
+            },
+            {
+                "Nomor": "9",
+                "Negara": "India",
+                "Emas": "10",
+                "Perak": "12",
+                "Perunggu": "13",
+                "Total": "35",
+                "Peringkat": "9"
+            },
+            {
+                "Nomor": "10",
+                "Negara": "Iran",
+                "Emas": "8",
+                "Perak": "14",
+                "Perunggu": "14",
+                "Total": "36",
+                "Peringkat": "8"
+            },
+            {
+                "Nomor": "11",
+                "Negara": "Yordania",
+                "Emas": "0",
+                "Perak": "0",
+                "Perunggu": "2",
+                "Total": "2",
+                "Peringkat": "32"
+            },
+            {
+                "Nomor": "12",
+                "Negara": "Jepang",
+                "Emas": "44",
+                "Perak": "74",
+                "Perunggu": "72",
+                "Total": "190",
+                "Peringkat": "3"
+            },
+            {
+                "Nomor": "13",
+                "Negara": "Kazakhstan",
+                "Emas": "20",
+                "Perak": "26",
+                "Perunggu": "30",
+                "Total": "76",
+                "Peringkat": "4"
+            },
+            {
+                "Nomor": "14",
+                "Negara": "Kirgiztan",
+                "Emas": "2",
+                "Perak": "4",
+                "Perunggu": "6",
+                "Total": "12",
+                "Peringkat": "20"
+            },
+            {
+                "Nomor": "15",
+                "Negara": "Korea Selatan",
+                "Emas": "96",
+                "Perak": "80",
+                "Perunggu": "84",
+                "Total": "260",
+                "Peringkat": "2"
+            },
+            {
+                "Nomor": "16",
+                "Negara": "Kuwait",
+                "Emas": "2",
+                "Perak": "1",
+                "Perunggu": "5",
+                "Total": "8",
+                "Peringkat": "23"
+            },
+            {
+                "Nomor": "17",
+                "Negara": "Laos",
+                "Emas": "0",
+                "Perak": "0",
+                "Perunggu": "2",
+                "Total": "2",
+                "Peringkat": "33"
+            },
+            {
+                "Nomor": "18",
+                "Negara": "Lebanon",
+                "Emas": "1",
+                "Perak": "0",
+                "Perunggu": "0",
+                "Total": "1",
+                "Peringkat": "37"
+            },
+            {
+                "Nomor": "19",
+                "Negara": "Makau",
+                "Emas": "0",
+                "Perak": "2",
+                "Perunggu": "2",
+                "Total": "4",
+                "Peringkat": "27"
+            },
+            {
+                "Nomor": "20",
+                "Negara": "Malaysia",
+                "Emas": "6",
+                "Perak": "8",
+                "Perunggu": "16",
+                "Total": "30",
+                "Peringkat": "11"
+            },
+            {
+                "Nomor": "21",
+                "Negara": "Mongolia",
+                "Emas": "1",
+                "Perak": "1",
+                "Perunggu": "12",
+                "Total": "14",
+                "Peringkat": "18"
+            },
+            {
+                "Nomor": "22",
+                "Negara": "Myanmar",
+                "Emas": "1",
+                "Perak": "5",
+                "Perunggu": "6",
+                "Total": "12",
+                "Peringkat": "21"
+            },
+            {
+                "Nomor": "23",
+                "Negara": "Nepal",
+                "Emas": "0",
+                "Perak": "0",
+                "Perunggu": "3",
+                "Total": "3",
+                "Peringkat": "29"
+            },
+            {
+                "Nomor": "24",
+                "Negara": "Pakistan",
+                "Emas": "1",
+                "Perak": "6",
+                "Perunggu": "6",
+                "Total": "13",
+                "Peringkat": "19"
+            },
+            {
+                "Nomor": "25",
+                "Negara": "Filipina",
+                "Emas": "3",
+                "Perak": "7",
+                "Perunggu": "16",
+                "Total": "26",
+                "Peringkat": "12"
+            },
+            {
+                "Nomor": "26",
+                "Negara": "Palestina",
+                "Emas": "0",
+                "Perak": "0",
+                "Perunggu": "1",
+                "Total": "1",
+                "Peringkat": "38"
+            },
+            {
+                "Nomor": "27",
+                "Negara": "Qatar",
+                "Emas": "4",
+                "Perak": "5",
+                "Perunggu": "8",
+                "Total": "17",
+                "Peringkat": "16"
+            },
+            {
+                "Nomor": "28",
+                "Negara": "Arab Saudi",
+                "Emas": "7",
+                "Perak": "1",
+                "Perunggu": "1",
+                "Total": "9",
+                "Peringkat": "22"
+            },
+            {
+                "Nomor": "29",
+                "Negara": "Singapura",
+                "Emas": "5",
+                "Perak": "2",
+                "Perunggu": "10",
+                "Total": "17",
+                "Peringkat": "17"
+            },
+            {
+                "Nomor": "30",
+                "Negara": "Sri Lanka",
+                "Emas": "2",
+                "Perak": "1",
+                "Perunggu": "3",
+                "Total": "6",
+                "Peringkat": "25"
+            },
+            {
+                "Nomor": "31",
+                "Negara": "Suriah",
+                "Emas": "0",
+                "Perak": "0",
+                "Perunggu": "3",
+                "Total": "3",
+                "Peringkat": "30"
+            },
+            {
+                "Nomor": "32",
+                "Negara": "Thailand",
+                "Emas": "14",
+                "Perak": "19",
+                "Perunggu": "10",
+                "Total": "43",
+                "Peringkat": "7"
+            },
+            {
+                "Nomor": "33",
+                "Negara": "Tajikistan",
+                "Emas": "0",
+                "Perak": "2",
+                "Perunggu": "4",
+                "Total": "6",
+                "Peringkat": "26"
+            },
+            {
+                "Nomor": "34",
+                "Negara": "Turkmenistan",
+                "Emas": "1",
+                "Perak": "2",
+                "Perunggu": "1",
+                "Total": "4",
+                "Peringkat": "28"
+            },
+            {
+                "Nomor": "35",
+                "Negara": "Taiwan",
+                "Emas": "10",
+                "Perak": "17",
+                "Perunggu": "25",
+                "Total": "52",
+                "Peringkat": "5"
+            },
+            {
+                "Nomor": "36",
+                "Negara": "Uni Emirat Arab",
+                "Emas": "0",
+                "Perak": "2",
+                "Perunggu": "1",
+                "Total": "3",
+                "Peringkat": "31"
+            },
+            {
+                "Nomor": "37",
+                "Negara": "Uzbekistan",
+                "Emas": "15",
+                "Perak": "12",
+                "Perunggu": "24",
+                "Total": "51",
+                "Peringkat": "6"
+            },
+            {
+                "Nomor": "38",
+                "Negara": "Vietnam",
+                "Emas": "4",
+                "Perak": "7",
+                "Perunggu": "7",
+                "Total": "18",
+                "Peringkat": "15"
+            },
+            {
+                "Nomor": "39",
+                "Negara": "Yaman",
+                "Emas": "0",
+                "Perak": "0",
+                "Perunggu": "1",
+                "Total": "1",
+                "Peringkat": "39"
+            }
+        ]
+    },
+    {
+        "Tahun": "2006",
+        "Tuan Rumah": "Qatar",
+        "Data": [
+            {
+                "Nomor": "1",
+                "Negara": "Afganistan",
+                "Emas": "0",
+                "Perak": "0",
+                "Perunggu": "1",
+                "Total": "1",
+                "Peringkat": "34"
+            },
+            {
+                "Nomor": "2",
+                "Negara": "Bangladesh",
+                "Emas": "0",
+                "Perak": "0",
+                "Perunggu": "1",
+                "Total": "1",
+                "Peringkat": "35"
+            },
+            {
+                "Nomor": "3",
+                "Negara": "Bahrain",
+                "Emas": "7",
+                "Perak": "10",
+                "Perunggu": "4",
+                "Total": "21",
+                "Peringkat": "16"
+            },
+            {
+                "Nomor": "4",
+                "Negara": "China",
+                "Emas": "166",
+                "Perak": "87",
+                "Perunggu": "63",
+                "Total": "316",
+                "Peringkat": "1"
+            },
+            {
+                "Nomor": "5",
+                "Negara": "Hong Kong",
+                "Emas": "6",
+                "Perak": "12",
+                "Perunggu": "10",
+                "Total": "28",
+                "Peringkat": "13"
+            },
+            {
+                "Nomor": "6",
+                "Negara": "Indonesia",
+                "Emas": "2",
+                "Perak": "3",
+                "Perunggu": "15",
+                "Total": "20",
+                "Peringkat": "17"
+            },
+            {
+                "Nomor": "7",
+                "Negara": "India",
+                "Emas": "10",
+                "Perak": "17",
+                "Perunggu": "26",
+                "Total": "53",
+                "Peringkat": "6"
+            },
+            {
+                "Nomor": "8",
+                "Negara": "Iran",
+                "Emas": "11",
+                "Perak": "15",
+                "Perunggu": "22",
+                "Total": "48",
+                "Peringkat": "7"
+            },
+            {
+                "Nomor": "9",
+                "Negara": "Irak",
+                "Emas": "0",
+                "Perak": "2",
+                "Perunggu": "1",
+                "Total": "3",
+                "Peringkat": "30"
+            },
+            {
+                "Nomor": "10",
+                "Negara": "Yordania",
+                "Emas": "1",
+                "Perak": "3",
+                "Perunggu": "4",
+                "Total": "8",
+                "Peringkat": "24"
+            },
+            {
+                "Nomor": "11",
+                "Negara": "Jepang",
+                "Emas": "50",
+                "Perak": "71",
+                "Perunggu": "77",
+                "Total": "198",
+                "Peringkat": "2"
+            },
+            {
+                "Nomor": "12",
+                "Negara": "Kazakhstan",
+                "Emas": "23",
+                "Perak": "20",
+                "Perunggu": "42",
+                "Total": "85",
+                "Peringkat": "4"
+            },
+            {
+                "Nomor": "13",
+                "Negara": "Kirgiztan",
+                "Emas": "0",
+                "Perak": "2",
+                "Perunggu": "6",
+                "Total": "8",
+                "Peringkat": "25"
+            },
+            {
+                "Nomor": "14",
+                "Negara": "Korea Selatan",
+                "Emas": "58",
+                "Perak": "53",
+                "Perunggu": "82",
+                "Total": "193",
+                "Peringkat": "3"
+            },
+            {
+                "Nomor": "15",
+                "Negara": "Kuwait",
+                "Emas": "6",
+                "Perak": "5",
+                "Perunggu": "2",
+                "Total": "13",
+                "Peringkat": "21"
+            },
+            {
+                "Nomor": "16",
+                "Negara": "Laos",
+                "Emas": "0",
+                "Perak": "1",
+                "Perunggu": "0",
+                "Total": "1",
+                "Peringkat": "36"
+            },
+            {
+                "Nomor": "17",
+                "Negara": "Lebanon",
+                "Emas": "1",
+                "Perak": "0",
+                "Perunggu": "2",
+                "Total": "3",
+                "Peringkat": "31"
+            },
+            {
+                "Nomor": "18",
+                "Negara": "Makau",
+                "Emas": "0",
+                "Perak": "1",
+                "Perunggu": "6",
+                "Total": "7",
+                "Peringkat": "26"
+            },
+            {
+                "Nomor": "19",
+                "Negara": "Malaysia",
+                "Emas": "8",
+                "Perak": "17",
+                "Perunggu": "17",
+                "Total": "42",
+                "Peringkat": "9"
+            },
+            {
+                "Nomor": "20",
+                "Negara": "Mongolia",
+                "Emas": "2",
+                "Perak": "5",
+                "Perunggu": "8",
+                "Total": "15",
+                "Peringkat": "19"
+            },
+            {
+                "Nomor": "21",
+                "Negara": "Myanmar",
+                "Emas": "0",
+                "Perak": "4",
+                "Perunggu": "7",
+                "Total": "11",
+                "Peringkat": "22"
+            },
+            {
+                "Nomor": "22",
+                "Negara": "Nepal",
+                "Emas": "0",
+                "Perak": "0",
+                "Perunggu": "3",
+                "Total": "3",
+                "Peringkat": "32"
+            },
+            {
+                "Nomor": "23",
+                "Negara": "Pakistan",
+                "Emas": "0",
+                "Perak": "1",
+                "Perunggu": "3",
+                "Total": "4",
+                "Peringkat": "28"
+            },
+            {
+                "Nomor": "24",
+                "Negara": "Filipina",
+                "Emas": "4",
+                "Perak": "6",
+                "Perunggu": "9",
+                "Total": "19",
+                "Peringkat": "18"
+            },
+            {
+                "Nomor": "25",
+                "Negara": "Korea Utara",
+                "Emas": "6",
+                "Perak": "9",
+                "Perunggu": "16",
+                "Total": "31",
+                "Peringkat": "12"
+            },
+            {
+                "Nomor": "26",
+                "Negara": "Qatar",
+                "Emas": "9",
+                "Perak": "12",
+                "Perunggu": "11",
+                "Total": "32",
+                "Peringkat": "11"
+            },
+            {
+                "Nomor": "27",
+                "Negara": "Arab Saudi",
+                "Emas": "8",
+                "Perak": "0",
+                "Perunggu": "6",
+                "Total": "14",
+                "Peringkat": "20"
+            },
+            {
+                "Nomor": "28",
+                "Negara": "Singapura",
+                "Emas": "8",
+                "Perak": "7",
+                "Perunggu": "12",
+                "Total": "27",
+                "Peringkat": "14"
+            },
+            {
+                "Nomor": "29",
+                "Negara": "Sri Lanka",
+                "Emas": "0",
+                "Perak": "1",
+                "Perunggu": "2",
+                "Total": "3",
+                "Peringkat": "33"
+            },
+            {
+                "Nomor": "30",
+                "Negara": "Suriah",
+                "Emas": "2",
+                "Perak": "1",
+                "Perunggu": "3",
+                "Total": "6",
+                "Peringkat": "27"
+            },
+            {
+                "Nomor": "31",
+                "Negara": "Thailand",
+                "Emas": "13",
+                "Perak": "15",
+                "Perunggu": "26",
+                "Total": "54",
+                "Peringkat": "5"
+            },
+            {
+                "Nomor": "32",
+                "Negara": "Tajikistan",
+                "Emas": "2",
+                "Perak": "0",
+                "Perunggu": "2",
+                "Total": "4",
+                "Peringkat": "29"
+            },
+            {
+                "Nomor": "33",
+                "Negara": "Turkmenistan",
+                "Emas": "0",
+                "Perak": "1",
+                "Perunggu": "0",
+                "Total": "1",
+                "Peringkat": "37"
+            },
+            {
+                "Nomor": "34",
+                "Negara": "Taiwan",
+                "Emas": "9",
+                "Perak": "10",
+                "Perunggu": "27",
+                "Total": "46",
+                "Peringkat": "8"
+            },
+            {
+                "Nomor": "35",
+                "Negara": "Uni Emirat Arab",
+                "Emas": "3",
+                "Perak": "4",
+                "Perunggu": "3",
+                "Total": "10",
+                "Peringkat": "23"
+            },
+            {
+                "Nomor": "36",
+                "Negara": "Uzbekistan",
+                "Emas": "11",
+                "Perak": "14",
+                "Perunggu": "15",
+                "Total": "40",
+                "Peringkat": "10"
+            },
+            {
+                "Nomor": "37",
+                "Negara": "Vietnam",
+                "Emas": "3",
+                "Perak": "13",
+                "Perunggu": "7",
+                "Total": "23",
+                "Peringkat": "15"
+            },
+            {
+                "Nomor": "38",
+                "Negara": "Yaman",
+                "Emas": "0",
+                "Perak": "0",
+                "Perunggu": "1",
+                "Total": "1",
+                "Peringkat": "38"
+            }
+        ]
+    },
+    {
+        "Tahun": "2010",
+        "Tuan Rumah": "China",
+        "Data": [
+            {
+                "Nomor": "1",
+                "Negara": "Afganistan",
+                "Emas": "0",
+                "Perak": "2",
+                "Perunggu": "1",
+                "Total": "3",
+                "Peringkat": "28"
+            },
+            {
+                "Nomor": "2",
+                "Negara": "Bangladesh",
+                "Emas": "1",
+                "Perak": "1",
+                "Perunggu": "1",
+                "Total": "3",
+                "Peringkat": "29"
+            },
+            {
+                "Nomor": "3",
+                "Negara": "Bahrain",
+                "Emas": "5",
+                "Perak": "0",
+                "Perunggu": "4",
+                "Total": "9",
+                "Peringkat": "21"
+            },
+            {
+                "Nomor": "4",
+                "Negara": "China",
+                "Emas": "199",
+                "Perak": "119",
+                "Perunggu": "98",
+                "Total": "416",
+                "Peringkat": "1"
+            },
+            {
+                "Nomor": "5",
+                "Negara": "Hong Kong",
+                "Emas": "8",
+                "Perak": "15",
+                "Perunggu": "17",
+                "Total": "40",
+                "Peringkat": "11"
+            },
+            {
+                "Nomor": "6",
+                "Negara": "Korea Utara",
+                "Emas": "6",
+                "Perak": "10",
+                "Perunggu": "20",
+                "Total": "36",
+                "Peringkat": "12"
+            },
+            {
+                "Nomor": "7",
+                "Negara": "India",
+                "Emas": "14",
+                "Perak": "17",
+                "Perunggu": "34",
+                "Total": "65",
+                "Peringkat": "6"
+            },
+            {
+                "Nomor": "8",
+                "Negara": "Indonesia",
+                "Emas": "4",
+                "Perak": "9",
+                "Perunggu": "13",
+                "Total": "26",
+                "Peringkat": "14"
+            },
+            {
+                "Nomor": "9",
+                "Negara": "Iran",
+                "Emas": "20",
+                "Perak": "15",
+                "Perunggu": "24",
+                "Total": "59",
+                "Peringkat": "7"
+            },
+            {
+                "Nomor": "10",
+                "Negara": "Irak",
+                "Emas": "0",
+                "Perak": "1",
+                "Perunggu": "2",
+                "Total": "3",
+                "Peringkat": "30"
+            },
+            {
+                "Nomor": "11",
+                "Negara": "Yordania",
+                "Emas": "2",
+                "Perak": "2",
+                "Perunggu": "2",
+                "Total": "6",
+                "Peringkat": "23"
+            },
+            {
+                "Nomor": "12",
+                "Negara": "Jepang",
+                "Emas": "48",
+                "Perak": "74",
+                "Perunggu": "94",
+                "Total": "216",
+                "Peringkat": "3"
+            },
+            {
+                "Nomor": "13",
+                "Negara": "Kazakhstan",
+                "Emas": "18",
+                "Perak": "23",
+                "Perunggu": "38",
+                "Total": "79",
+                "Peringkat": "4"
+            },
+            {
+                "Nomor": "14",
+                "Negara": "Korea Selatan",
+                "Emas": "76",
+                "Perak": "65",
+                "Perunggu": "91",
+                "Total": "232",
+                "Peringkat": "2"
+            },
+            {
+                "Nomor": "15",
+                "Negara": "Kirgiztan",
+                "Emas": "1",
+                "Perak": "2",
+                "Perunggu": "2",
+                "Total": "5",
+                "Peringkat": "25"
+            },
+            {
+                "Nomor": "16",
+                "Negara": "Laos",
+                "Emas": "0",
+                "Perak": "0",
+                "Perunggu": "2",
+                "Total": "2",
+                "Peringkat": "32"
+            },
+            {
+                "Nomor": "17",
+                "Negara": "Lebanon",
+                "Emas": "0",
+                "Perak": "1",
+                "Perunggu": "2",
+                "Total": "3",
+                "Peringkat": "31"
+            },
+            {
+                "Nomor": "18",
+                "Negara": "Makau",
+                "Emas": "1",
+                "Perak": "1",
+                "Perunggu": "4",
+                "Total": "6",
+                "Peringkat": "24"
+            },
+            {
+                "Nomor": "19",
+                "Negara": "Malaysia",
+                "Emas": "9",
+                "Perak": "18",
+                "Perunggu": "14",
+                "Total": "41",
+                "Peringkat": "10"
+            },
+            {
+                "Nomor": "20",
+                "Negara": "Mongolia",
+                "Emas": "2",
+                "Perak": "5",
+                "Perunggu": "9",
+                "Total": "16",
+                "Peringkat": "16"
+            },
+            {
+                "Nomor": "21",
+                "Negara": "Myanmar",
+                "Emas": "2",
+                "Perak": "5",
+                "Perunggu": "3",
+                "Total": "10",
+                "Peringkat": "20"
+            },
+            {
+                "Nomor": "22",
+                "Negara": "Nepal",
+                "Emas": "0",
+                "Perak": "0",
+                "Perunggu": "1",
+                "Total": "1",
+                "Peringkat": "34"
+            },
+            {
+                "Nomor": "23",
+                "Negara": "Oman",
+                "Emas": "0",
+                "Perak": "0",
+                "Perunggu": "1",
+                "Total": "1",
+                "Peringkat": "35"
+            },
+            {
+                "Nomor": "24",
+                "Negara": "Pakistan",
+                "Emas": "3",
+                "Perak": "2",
+                "Perunggu": "3",
+                "Total": "8",
+                "Peringkat": "22"
+            },
+            {
+                "Nomor": "25",
+                "Negara": "Filipina",
+                "Emas": "3",
+                "Perak": "4",
+                "Perunggu": "9",
+                "Total": "16",
+                "Peringkat": "17"
+            },
+            {
+                "Nomor": "26",
+                "Negara": "Qatar",
+                "Emas": "4",
+                "Perak": "4",
+                "Perunggu": "7",
+                "Total": "15",
+                "Peringkat": "18"
+            },
+            {
+                "Nomor": "27",
+                "Negara": "Arab Saudi",
+                "Emas": "5",
+                "Perak": "3",
+                "Perunggu": "5",
+                "Total": "13",
+                "Peringkat": "19"
+            },
+            {
+                "Nomor": "28",
+                "Negara": "Singapura",
+                "Emas": "4",
+                "Perak": "7",
+                "Perunggu": "6",
+                "Total": "17",
+                "Peringkat": "15"
+            },
+            {
+                "Nomor": "29",
+                "Negara": "Suriah",
+                "Emas": "1",
+                "Perak": "0",
+                "Perunggu": "1",
+                "Total": "2",
+                "Peringkat": "33"
+            },
+            {
+                "Nomor": "30",
+                "Negara": "Taiwan",
+                "Emas": "13",
+                "Perak": "16",
+                "Perunggu": "38",
+                "Total": "67",
+                "Peringkat": "5"
+            },
+            {
+                "Nomor": "31",
+                "Negara": "Tajikistan",
+                "Emas": "1",
+                "Perak": "0",
+                "Perunggu": "3",
+                "Total": "4",
+                "Peringkat": "27"
+            },
+            {
+                "Nomor": "32",
+                "Negara": "Thailand",
+                "Emas": "11",
+                "Perak": "9",
+                "Perunggu": "32",
+                "Total": "52",
+                "Peringkat": "9"
+            },
+            {
+                "Nomor": "33",
+                "Negara": "Uni Emirat Arab",
+                "Emas": "0",
+                "Perak": "4",
+                "Perunggu": "1",
+                "Total": "5",
+                "Peringkat": "26"
+            },
+            {
+                "Nomor": "34",
+                "Negara": "Uzbekistan",
+                "Emas": "11",
+                "Perak": "22",
+                "Perunggu": "23",
+                "Total": "56",
+                "Peringkat": "8"
+            },
+            {
+                "Nomor": "35",
+                "Negara": "Vietnam",
+                "Emas": "1",
+                "Perak": "17",
+                "Perunggu": "15",
+                "Total": "33",
+                "Peringkat": "13"
+            }
+        ]
+    },
+    {
+        "Tahun": "2014",
+        "Tuan Rumah": "Korea Selatan",
+        "Data": [
+            {
+                "Nomor": "1",
+                "Negara": "Afganistan",
+                "Emas": "0",
+                "Perak": "1",
+                "Perunggu": "1",
+                "Total": "2",
+                "Peringkat": "33"
+            },
+            {
+                "Nomor": "2",
+                "Negara": "Bahrain",
+                "Emas": "9",
+                "Perak": "6",
+                "Perunggu": "4",
+                "Total": "19",
+                "Peringkat": "17"
+            },
+            {
+                "Nomor": "3",
+                "Negara": "Bangladesh",
+                "Emas": "0",
+                "Perak": "1",
+                "Perunggu": "2",
+                "Total": "3",
+                "Peringkat": "31"
+            },
+            {
+                "Nomor": "4",
+                "Negara": "Kamboja",
+                "Emas": "1",
+                "Perak": "0",
+                "Perunggu": "0",
+                "Total": "1",
+                "Peringkat": "36"
+            },
+            {
+                "Nomor": "5",
+                "Negara": "China",
+                "Emas": "151",
+                "Perak": "109",
+                "Perunggu": "85",
+                "Total": "345",
+                "Peringkat": "1"
+            },
+            {
+                "Nomor": "6",
+                "Negara": "Korea Utara",
+                "Emas": "11",
+                "Perak": "11",
+                "Perunggu": "14",
+                "Total": "36",
+                "Peringkat": "11"
+            },
+            {
+                "Nomor": "7",
+                "Negara": "Hong Kong",
+                "Emas": "6",
+                "Perak": "12",
+                "Perunggu": "25",
+                "Total": "43",
+                "Peringkat": "10"
+            },
+            {
+                "Nomor": "8",
+                "Negara": "India",
+                "Emas": "11",
+                "Perak": "9",
+                "Perunggu": "37",
+                "Total": "57",
+                "Peringkat": "5"
+            },
+            {
+                "Nomor": "9",
+                "Negara": "Indonesia",
+                "Emas": "4",
+                "Perak": "5",
+                "Perunggu": "11",
+                "Total": "20",
+                "Peringkat": "16"
+            },
+            {
+                "Nomor": "10",
+                "Negara": "Iran",
+                "Emas": "21",
+                "Perak": "18",
+                "Perunggu": "18",
+                "Total": "57",
+                "Peringkat": "6"
+            },
+            {
+                "Nomor": "11",
+                "Negara": "Irak",
+                "Emas": "1",
+                "Perak": "0",
+                "Perunggu": "3",
+                "Total": "4",
+                "Peringkat": "27"
+            },
+            {
+                "Nomor": "12",
+                "Negara": "Jepang",
+                "Emas": "47",
+                "Perak": "77",
+                "Perunggu": "76",
+                "Total": "200",
+                "Peringkat": "3"
+            },
+            {
+                "Nomor": "13",
+                "Negara": "Yordania",
+                "Emas": "0",
+                "Perak": "2",
+                "Perunggu": "2",
+                "Total": "4",
+                "Peringkat": "28"
+            },
+            {
+                "Nomor": "14",
+                "Negara": "Kazakhstan",
+                "Emas": "28",
+                "Perak": "23",
+                "Perunggu": "33",
+                "Total": "84",
+                "Peringkat": "4"
+            },
+            {
+                "Nomor": "15",
+                "Negara": "Korea Selatan",
+                "Emas": "79",
+                "Perak": "70",
+                "Perunggu": "79",
+                "Total": "228",
+                "Peringkat": "2"
+            },
+            {
+                "Nomor": "16",
+                "Negara": "Kuwait",
+                "Emas": "3",
+                "Perak": "5",
+                "Perunggu": "4",
+                "Total": "12",
+                "Peringkat": "20"
+            },
+            {
+                "Nomor": "17",
+                "Negara": "Kirgiztan",
+                "Emas": "0",
+                "Perak": "2",
+                "Perunggu": "4",
+                "Total": "6",
+                "Peringkat": "23"
+            },
+            {
+                "Nomor": "18",
+                "Negara": "Laos",
+                "Emas": "0",
+                "Perak": "1",
+                "Perunggu": "2",
+                "Total": "3",
+                "Peringkat": "32"
+            },
+            {
+                "Nomor": "19",
+                "Negara": "Lebanon",
+                "Emas": "0",
+                "Perak": "1",
+                "Perunggu": "1",
+                "Total": "2",
+                "Peringkat": "34"
+            },
+            {
+                "Nomor": "20",
+                "Negara": "Makau",
+                "Emas": "0",
+                "Perak": "3",
+                "Perunggu": "4",
+                "Total": "7",
+                "Peringkat": "21"
+            },
+            {
+                "Nomor": "21",
+                "Negara": "Malaysia",
+                "Emas": "5",
+                "Perak": "14",
+                "Perunggu": "14",
+                "Total": "33",
+                "Peringkat": "13"
+            },
+            {
+                "Nomor": "22",
+                "Negara": "Mongolia",
+                "Emas": "5",
+                "Perak": "4",
+                "Perunggu": "12",
+                "Total": "21",
+                "Peringkat": "15"
+            },
+            {
+                "Nomor": "23",
+                "Negara": "Myanmar",
+                "Emas": "2",
+                "Perak": "1",
+                "Perunggu": "1",
+                "Total": "4",
+                "Peringkat": "29"
+            },
+            {
+                "Nomor": "24",
+                "Negara": "Nepal",
+                "Emas": "0",
+                "Perak": "0",
+                "Perunggu": "1",
+                "Total": "1",
+                "Peringkat": "37"
+            },
+            {
+                "Nomor": "25",
+                "Negara": "Pakistan",
+                "Emas": "1",
+                "Perak": "1",
+                "Perunggu": "3",
+                "Total": "5",
+                "Peringkat": "25"
+            },
+            {
+                "Nomor": "26",
+                "Negara": "Filipina",
+                "Emas": "1",
+                "Perak": "3",
+                "Perunggu": "11",
+                "Total": "15",
+                "Peringkat": "18"
+            },
+            {
+                "Nomor": "27",
+                "Negara": "Qatar",
+                "Emas": "10",
+                "Perak": "0",
+                "Perunggu": "4",
+                "Total": "14",
+                "Peringkat": "19"
+            },
+            {
+                "Nomor": "28",
+                "Negara": "Arab Saudi",
+                "Emas": "3",
+                "Perak": "3",
+                "Perunggu": "1",
+                "Total": "7",
+                "Peringkat": "22"
+            },
+            {
+                "Nomor": "29",
+                "Negara": "Singapura",
+                "Emas": "5",
+                "Perak": "6",
+                "Perunggu": "14",
+                "Total": "25",
+                "Peringkat": "14"
+            },
+            {
+                "Nomor": "30",
+                "Negara": "Sri Lanka",
+                "Emas": "1",
+                "Perak": "0",
+                "Perunggu": "1",
+                "Total": "2",
+                "Peringkat": "35"
+            },
+            {
+                "Nomor": "31",
+                "Negara": "Taiwan",
+                "Emas": "10",
+                "Perak": "18",
+                "Perunggu": "23",
+                "Total": "51",
+                "Peringkat": "7"
+            },
+            {
+                "Nomor": "32",
+                "Negara": "Tajikistan",
+                "Emas": "1",
+                "Perak": "1",
+                "Perunggu": "3",
+                "Total": "5",
+                "Peringkat": "26"
+            },
+            {
+                "Nomor": "33",
+                "Negara": "Thailand",
+                "Emas": "12",
+                "Perak": "7",
+                "Perunggu": "28",
+                "Total": "47",
+                "Peringkat": "8"
+            },
+            {
+                "Nomor": "34",
+                "Negara": "Turkmenistan",
+                "Emas": "0",
+                "Perak": "1",
+                "Perunggu": "5",
+                "Total": "6",
+                "Peringkat": "24"
+            },
+            {
+                "Nomor": "35",
+                "Negara": "Uni Emirat Arab",
+                "Emas": "1",
+                "Perak": "0",
+                "Perunggu": "3",
+                "Total": "4",
+                "Peringkat": "30"
+            },
+            {
+                "Nomor": "36",
+                "Negara": "Uzbekistan",
+                "Emas": "9",
+                "Perak": "14",
+                "Perunggu": "22",
+                "Total": "45",
+                "Peringkat": "9"
+            },
+            {
+                "Nomor": "37",
+                "Negara": "Vietnam",
+                "Emas": "1",
+                "Perak": "10",
+                "Perunggu": "25",
+                "Total": "36",
+                "Peringkat": "12"
+            }
+        ]
+    },
+    {
+        "Tahun": "2018",
+        "Tuan Rumah": "Indonesia",
+        "Data": [
+            {
+                "Nomor": "1",
+                "Negara": "China",
+                "Emas": "132",
+                "Perak": "92",
+                "Perunggu": "65",
+                "Total": "289",
+                "Peringkat": "1"
+            },
+            {
+                "Nomor": "2",
+                "Negara": "Jepang",
+                "Emas": "75",
+                "Perak": "56",
+                "Perunggu": "74",
+                "Total": "205",
+                "Peringkat": "2"
+            },
+            {
+                "Nomor": "3",
+                "Negara": "Korea Selatan",
+                "Emas": "49",
+                "Perak": "58",
+                "Perunggu": "70",
+                "Total": "177",
+                "Peringkat": "3"
+            },
+            {
+                "Nomor": "4",
+                "Negara": "Indonesia",
+                "Emas": "31",
+                "Perak": "24",
+                "Perunggu": "43",
+                "Total": "98",
+                "Peringkat": "4"
+            },
+            {
+                "Nomor": "5",
+                "Negara": "Uzbekistan",
+                "Emas": "21",
+                "Perak": "24",
+                "Perunggu": "25",
+                "Total": "70",
+                "Peringkat": "7"
+            },
+            {
+                "Nomor": "6",
+                "Negara": "Iran",
+                "Emas": "20",
+                "Perak": "20",
+                "Perunggu": "22",
+                "Total": "62",
+                "Peringkat": "10"
+            },
+            {
+                "Nomor": "7",
+                "Negara": "Taiwan",
+                "Emas": "17",
+                "Perak": "19",
+                "Perunggu": "31",
+                "Total": "67",
+                "Peringkat": "9"
+            },
+            {
+                "Nomor": "8",
+                "Negara": "India",
+                "Emas": "15",
+                "Perak": "24",
+                "Perunggu": "30",
+                "Total": "69",
+                "Peringkat": "8"
+            },
+            {
+                "Nomor": "9",
+                "Negara": "Kazakhstan",
+                "Emas": "15",
+                "Perak": "17",
+                "Perunggu": "44",
+                "Total": "76",
+                "Peringkat": "5"
+            },
+            {
+                "Nomor": "10",
+                "Negara": "Korea Utara",
+                "Emas": "12",
+                "Perak": "12",
+                "Perunggu": "13",
+                "Total": "37",
+                "Peringkat": "13"
+            },
+            {
+                "Nomor": "11",
+                "Negara": "Bahrain",
+                "Emas": "12",
+                "Perak": "7",
+                "Perunggu": "7",
+                "Total": "26",
+                "Peringkat": "15"
+            },
+            {
+                "Nomor": "12",
+                "Negara": "Thailand",
+                "Emas": "11",
+                "Perak": "16",
+                "Perunggu": "46",
+                "Total": "73",
+                "Peringkat": "6"
+            },
+            {
+                "Nomor": "13",
+                "Negara": "Hong Kong",
+                "Emas": "8",
+                "Perak": "18",
+                "Perunggu": "20",
+                "Total": "46",
+                "Peringkat": "11"
+            },
+            {
+                "Nomor": "14",
+                "Negara": "Malaysia",
+                "Emas": "7",
+                "Perak": "13",
+                "Perunggu": "16",
+                "Total": "36",
+                "Peringkat": "14"
+            },
+            {
+                "Nomor": "15",
+                "Negara": "Qatar",
+                "Emas": "6",
+                "Perak": "4",
+                "Perunggu": "3",
+                "Total": "13",
+                "Peringkat": "21"
+            },
+            {
+                "Nomor": "16",
+                "Negara": "Mongolia",
+                "Emas": "5",
+                "Perak": "9",
+                "Perunggu": "11",
+                "Total": "25",
+                "Peringkat": "16"
+            },
+            {
+                "Nomor": "17",
+                "Negara": "Vietnam",
+                "Emas": "4",
+                "Perak": "16",
+                "Perunggu": "18",
+                "Total": "38",
+                "Peringkat": "12"
+            },
+            {
+                "Nomor": "18",
+                "Negara": "Singapura",
+                "Emas": "4",
+                "Perak": "4",
+                "Perunggu": "14",
+                "Total": "22",
+                "Peringkat": "17"
+            },
+            {
+                "Nomor": "19",
+                "Negara": "Filipina",
+                "Emas": "4",
+                "Perak": "2",
+                "Perunggu": "15",
+                "Total": "21",
+                "Peringkat": "18"
+            },
+            {
+                "Nomor": "20",
+                "Negara": "Uni Emirat Arab",
+                "Emas": "3",
+                "Perak": "6",
+                "Perunggu": "5",
+                "Total": "14",
+                "Peringkat": "20"
+            },
+            {
+                "Nomor": "21",
+                "Negara": "Kuwait",
+                "Emas": "3",
+                "Perak": "1",
+                "Perunggu": "2",
+                "Total": "6",
+                "Peringkat": "24"
+            },
+            {
+                "Nomor": "22",
+                "Negara": "Kirgiztan",
+                "Emas": "2",
+                "Perak": "6",
+                "Perunggu": "12",
+                "Total": "20",
+                "Peringkat": "19"
+            },
+            {
+                "Nomor": "23",
+                "Negara": "Yordania",
+                "Emas": "2",
+                "Perak": "1",
+                "Perunggu": "9",
+                "Total": "12",
+                "Peringkat": "22"
+            },
+            {
+                "Nomor": "24",
+                "Negara": "Kamboja",
+                "Emas": "2",
+                "Perak": "0",
+                "Perunggu": "1",
+                "Total": "3",
+                "Peringkat": "31"
+            },
+            {
+                "Nomor": "25",
+                "Negara": "Arab Saudi",
+                "Emas": "1",
+                "Perak": "2",
+                "Perunggu": "3",
+                "Total": "6",
+                "Peringkat": "24"
+            },
+            {
+                "Nomor": "26",
+                "Negara": "Makau",
+                "Emas": "1",
+                "Perak": "2",
+                "Perunggu": "2",
+                "Total": "5",
+                "Peringkat": "26"
+            },
+            {
+                "Nomor": "27",
+                "Negara": "Irak",
+                "Emas": "1",
+                "Perak": "2",
+                "Perunggu": "0",
+                "Total": "3",
+                "Peringkat": "31"
+            },
+            {
+                "Nomor": "28",
+                "Negara": "Korea",
+                "Emas": "1",
+                "Perak": "1",
+                "Perunggu": "2",
+                "Total": "4",
+                "Peringkat": "28"
+            },
+            {
+                "Nomor": "28",
+                "Negara": "Lebanon",
+                "Emas": "1",
+                "Perak": "1",
+                "Perunggu": "2",
+                "Total": "4",
+                "Peringkat": "28"
+            },
+            {
+                "Nomor": "30",
+                "Negara": "Tajikistan",
+                "Emas": "0",
+                "Perak": "4",
+                "Perunggu": "3",
+                "Total": "7",
+                "Peringkat": "23"
+            },
+            {
+                "Nomor": "31",
+                "Negara": "Laos",
+                "Emas": "0",
+                "Perak": "2",
+                "Perunggu": "3",
+                "Total": "5",
+                "Peringkat": "26"
+            },
+            {
+                "Nomor": "32",
+                "Negara": "Turkmenistan",
+                "Emas": "0",
+                "Perak": "1",
+                "Perunggu": "2",
+                "Total": "3",
+                "Peringkat": "31"
+            },
+            {
+                "Nomor": "33",
+                "Negara": "Nepal",
+                "Emas": "0",
+                "Perak": "1",
+                "Perunggu": "0",
+                "Total": "1",
+                "Peringkat": "36"
+            },
+            {
+                "Nomor": "34",
+                "Negara": "Pakistan",
+                "Emas": "0",
+                "Perak": "0",
+                "Perunggu": "4",
+                "Total": "4",
+                "Peringkat": "28"
+            },
+            {
+                "Nomor": "35",
+                "Negara": "Afganistan",
+                "Emas": "0",
+                "Perak": "0",
+                "Perunggu": "2",
+                "Total": "2",
+                "Peringkat": "34"
+            },
+            {
+                "Nomor": "35",
+                "Negara": "Myanmar",
+                "Emas": "0",
+                "Perak": "0",
+                "Perunggu": "2",
+                "Total": "2",
+                "Peringkat": "34"
+            },
+            {
+                "Nomor": "37",
+                "Negara": "Suriah",
+                "Emas": "0",
+                "Perak": "0",
+                "Perunggu": "1",
+                "Total": "1",
+                "Peringkat": "36"
+            }
+        ]
+    }
+]

@@ -1,0 +1,236 @@
+[
+    {
+        "Cabor": "Panahan",
+        "Medali": {
+            "Emas": 0,
+            "Perak": 1,
+            "Perunggu": 1,
+            "Total Seluruh Medali": 24
+        }
+    },
+    {
+        "Cabor": "Atletik",
+        "Medali": {
+            "Emas": 0,
+            "Perak": 2,
+            "Perunggu": 1,
+            "Total Seluruh Medali": 145
+        }
+    },
+    {
+        "Cabor": "Bulu Tangkis",
+        "Medali": {
+            "Emas": 2,
+            "Perak": 2,
+            "Perunggu": 4,
+            "Total Seluruh Medali": 28
+        }
+    },
+    {
+        "Cabor": "Voli Pantai",
+        "Medali": {
+            "Emas": 0,
+            "Perak": 1,
+            "Perunggu": 2,
+            "Total Seluruh Medali": 6
+        }
+    },
+    {
+        "Cabor": "Tinju",
+        "Medali": {
+            "Emas": 0,
+            "Perak": 0,
+            "Perunggu": 2,
+            "Total Seluruh Medali": 40
+        }
+    },
+    {
+        "Cabor": "Kano - Sprint",
+        "Medali": {
+            "Emas": 0,
+            "Perak": 1,
+            "Perunggu": 1,
+            "Total Seluruh Medali": 36
+        }
+    },
+    {
+        "Cabor": "Bridge",
+        "Medali": {
+            "Emas": 0,
+            "Perak": 0,
+            "Perunggu": 4,
+            "Total Seluruh Medali": 24
+        }
+    },
+    {
+        "Cabor": "Balap Sepeda - BMX",
+        "Medali": {
+            "Emas": 0,
+            "Perak": 1,
+            "Perunggu": 1,
+            "Total Seluruh Medali": 6
+        }
+    },
+    {
+        "Cabor": "Balap Sepeda - Sepeda Gunung",
+        "Medali": {
+            "Emas": 2,
+            "Perak": 0,
+            "Perunggu": 1,
+            "Total Seluruh Medali": 12
+        }
+    },
+    {
+        "Cabor": "Perahu Naga",
+        "Medali": {
+            "Emas": 0,
+            "Perak": 2,
+            "Perunggu": 1,
+            "Total Seluruh Medali": 15
+        }
+    },
+    {
+        "Cabor": "Senam - Artistik",
+        "Medali": {
+            "Emas": 0,
+            "Perak": 1,
+            "Perunggu": 1,
+            "Total Seluruh Medali": 54
+        }
+    },
+    {
+        "Cabor": "Jet Ski",
+        "Medali": {
+            "Emas": 1,
+            "Perak": 1,
+            "Perunggu": 1,
+            "Total Seluruh Medali": 12
+        }
+    },
+    {
+        "Cabor": "Karate",
+        "Medali": {
+            "Emas": 1,
+            "Perak": 0,
+            "Perunggu": 3,
+            "Total Seluruh Medali": 48
+        }
+    },
+    {
+        "Cabor": "Kurash",
+        "Medali": {
+            "Emas": 0,
+            "Perak": 0,
+            "Perunggu": 1,
+            "Total Seluruh Medali": 28
+        }
+    },
+    {
+        "Cabor": "Paralayang",
+        "Medali": {
+            "Emas": 2,
+            "Perak": 1,
+            "Perunggu": 3,
+            "Total Seluruh Medali": 18
+        }
+    },
+    {
+        "Cabor": "Pencak Silat",
+        "Medali": {
+            "Emas": 14,
+            "Perak": 0,
+            "Perunggu": 1,
+            "Total Seluruh Medali": 58
+        }
+    },
+    {
+        "Cabor": "Olahraga Seluncur - Skateboard",
+        "Medali": {
+            "Emas": 0,
+            "Perak": 2,
+            "Perunggu": 2,
+            "Total Seluruh Medali": 18
+        }
+    },
+    {
+        "Cabor": "Dayung",
+        "Medali": {
+            "Emas": 1,
+            "Perak": 2,
+            "Perunggu": 2,
+            "Total Seluruh Medali": 45
+        }
+    },
+    {
+        "Cabor": "Sepak Takraw",
+        "Medali": {
+            "Emas": 1,
+            "Perak": 1,
+            "Perunggu": 3,
+            "Total Seluruh Medali": 24
+        }
+    },
+    {
+        "Cabor": "Menembak",
+        "Medali": {
+            "Emas": 0,
+            "Perak": 1,
+            "Perunggu": 0,
+            "Total Seluruh Medali": 60
+        }
+    },
+    {
+        "Cabor": "Soft Tenis",
+        "Medali": {
+            "Emas": 0,
+            "Perak": 1,
+            "Perunggu": 3,
+            "Total Seluruh Medali": 20
+        }
+    },
+    {
+        "Cabor": "Panjat Tebing",
+        "Medali": {
+            "Emas": 3,
+            "Perak": 2,
+            "Perunggu": 1,
+            "Total Seluruh Medali": 18
+        }
+    },
+    {
+        "Cabor": "Taekwondo",
+        "Medali": {
+            "Emas": 1,
+            "Perak": 0,
+            "Perunggu": 0,
+            "Total Seluruh Medali": 56
+        }
+    },
+    {
+        "Cabor": "Tenis",
+        "Medali": {
+            "Emas": 1,
+            "Perak": 0,
+            "Perunggu": 0,
+            "Total Seluruh Medali": 20
+        }
+    },
+    {
+        "Cabor": "Angkat Beban",
+        "Medali": {
+            "Emas": 1,
+            "Perak": 1,
+            "Perunggu": 1,
+            "Total Seluruh Medali": 45
+        }
+    },
+    {
+        "Cabor": "Wushu",
+        "Medali": {
+            "Emas": 1,
+            "Perak": 1,
+            "Perunggu": 3,
+            "Total Seluruh Medali": 48
+        }
+    }
+]

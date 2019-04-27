@@ -1,0 +1,102 @@
+[
+    {
+        "Tahun": "1982",
+        "Data": {
+            "Emas": "4",
+            "Perak": "4",
+            "Perunggu": "7",
+            "Total": "15",
+            "Peringkat": "6"
+        }
+    },
+    {
+        "Tahun": "1986",
+        "Data": {
+            "Emas": "1",
+            "Perak": "5",
+            "Perunggu": "4",
+            "Total": "10",
+            "Peringkat": "8"
+        }
+    },
+    {
+        "Tahun": "1990",
+        "Data": {
+            "Emas": "3",
+            "Perak": "6",
+            "Perunggu": "21",
+            "Total": "30",
+            "Peringkat": "6"
+        }
+    },
+    {
+        "Tahun": "1994",
+        "Data": {
+            "Emas": "3",
+            "Perak": "12",
+            "Perunggu": "11",
+            "Total": "26",
+            "Peringkat": "7"
+        }
+    },
+    {
+        "Tahun": "1998",
+        "Data": {
+            "Emas": "6",
+            "Perak": "10",
+            "Perunggu": "11",
+            "Total": "27",
+            "Peringkat": "12"
+        }
+    },
+    {
+        "Tahun": "2002",
+        "Data": {
+            "Emas": "4",
+            "Perak": "7",
+            "Perunggu": "12",
+            "Total": "23",
+            "Peringkat": "13"
+        }
+    },
+    {
+        "Tahun": "2006",
+        "Data": {
+            "Emas": "2",
+            "Perak": "3",
+            "Perunggu": "15",
+            "Total": "20",
+            "Peringkat": "17"
+        }
+    },
+    {
+        "Tahun": "2010",
+        "Data": {
+            "Emas": "4",
+            "Perak": "9",
+            "Perunggu": "13",
+            "Total": "26",
+            "Peringkat": "14"
+        }
+    },
+    {
+        "Tahun": "2014",
+        "Data": {
+            "Emas": "4",
+            "Perak": "5",
+            "Perunggu": "11",
+            "Total": "20",
+            "Peringkat": "16"
+        }
+    },
+    {
+        "Tahun": "2018",
+        "Data": {
+            "Emas": "31",
+            "Perak": "24",
+            "Perunggu": "43",
+            "Total": "98",
+            "Peringkat": "4"
+        }
+    }
+]

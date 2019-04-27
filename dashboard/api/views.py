@@ -1,3 +1,4 @@
+from django.conf import settings
 from django.http import JsonResponse
 
 # STILL USE DUMMY DATA
@@ -10,4 +11,10 @@ def get_detail_country_gold_medals(request):
         'golds': [15, 20, 30, 23],
     }
     return JsonResponse(result)
+
+def test_gisela(request):
+    data = settings.TOTAL_MEDAL_JSON
+    print (data)
+    # TODO: manipulate data first
+    return JsonResponse(data)
 

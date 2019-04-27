@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 """
 
 import os
+import json
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -127,4 +128,12 @@ STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.FileSystemFinder',
     #'django.contrib.staticfiles.finders.AppDirectoriesFinder',    #causes verbose duplicate notifications in django 1.9
 )
+
+DATA_DIR = os.path.join(BASE_DIR, 'data')
+# VARIABLES FOR JSON DATA
+ASIA_MEDAL_JSON = json.load(open(os.path.join(DATA_DIR, 'asia_medal.json')))
+INDONESIA_2018_JSON = json.load(open(os.path.join(DATA_DIR, 'indonesia_2018.json')))
+INDONESIA_MEDAL_JSON = json.load(open(os.path.join(DATA_DIR, 'indonesia_medal.json')))
+INDONESIA_PROGRESS_JSON = json.load(open(os.path.join(DATA_DIR, 'indonesia_progress.json')))
+TOTAL_MEDAL_JSON = json.load(open(os.path.join(DATA_DIR, 'total_medal.json')))
 

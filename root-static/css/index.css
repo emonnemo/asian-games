@@ -94,3 +94,12 @@
   top: 38vh;
   z-index: 0;
 }
+
+.country-name {
+  font-size: 144px;
+  text-align: center;
+}
+
+.country-select {
+  width: 100% !important;
+}
