@@ -6,15 +6,9 @@ var hostsLineChartOptions = {
             show: false,
         },
     },
-    series: [{
-        name: 'Indonesia',
-        data: [15, 20, 30, 23],
-    }, {
-        name: 'Korea',
-        data: [20, 40, 35, 30],
-    }],
+    series: [],
     xaxis: {
-        categories: [2006, 2010, 2014, 2018],
+        categories: [],
         title: {
             text: 'Year',
         },
@@ -58,6 +52,18 @@ var individualCountryBarChart = new ApexCharts(document.querySelector('#individu
 individualCountryBarChart.render();
 
 // Functions to call APIs using AJAX and update apex charts data
+function updateHostsLineChart() {
+    $.get('/dashboard/api/get-country-gold-medals', function(data) {
+        var hostsLineChartNewOptions = {
+            series: data['countries_medals'],
+            xaxis: {
+                categories: data['years'],
+            },
+        };
+        hostsLineChart.updateOptions(hostsLineChartNewOptions);
+    });
+};
+
 function updateIndividualCountryBarChart(country) {
     $.get(format('/dashboard/api/get-detail-country-gold-medals?country=%s', country), function(data) {
         var individualCountryBarChartNewOptions = {

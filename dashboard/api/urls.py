@@ -18,6 +18,7 @@ from django.urls import path, include
 from . import views
 
 urlpatterns = [
+    path('get-country-gold-medals/', views.get_country_gold_medals, name='country-gold-medals'),
     path('get-detail-country-gold-medals/', views.get_detail_country_gold_medals, name='detail-country-gold-medals'),
     path('test-gisela/', views.test_gisela, name='test-gisela'),
 ]

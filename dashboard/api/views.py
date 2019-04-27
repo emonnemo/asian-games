@@ -1,8 +1,48 @@
 from django.conf import settings
 from django.http import JsonResponse
+import json
 
 # STILL USE DUMMY DATA
 # TODO: GET CORRECT DATA
+
+def get_country_gold_medals(request):
+    data = settings.ASIA_MEDAL_JSON
+    years = []
+    hosts = []
+    countries_golds = {}
+    for yearly_data in data:
+        year = yearly_data['Tahun']
+        host = yearly_data['Tuan Rumah']
+        gold_data = yearly_data['Data']
+
+        years.append(year)
+        hosts.append(host)
+        for country_yearly_data in gold_data:
+            country_name = country_yearly_data['Negara']
+            code_name = country_yearly_data['Negara']
+            gold = int(country_yearly_data['Emas'])
+            if country_name not in countries_golds:
+                countries_golds[country_name] = {}
+            countries_golds[country_name][year] = gold
+    
+    # Only returns the country data that has ever be host
+    # in the last 10 events
+
+    countries_medals = []
+    for country, golds in countries_golds.items():
+        if country in hosts:
+            countries_medals.append({
+                'name': country,
+                'code_name': country,
+                'data': list(golds.values()),
+            })
+
+    result = {
+        'years': years,
+        'hosts': hosts,
+        'countries_medals': countries_medals,
+    }
+    return JsonResponse(result)
 
 def get_detail_country_gold_medals(request):
     country = request.GET.get('country')
