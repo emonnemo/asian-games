@@ -1,6 +1,7 @@
 from django.conf import settings
 from django.http import JsonResponse
 import json
+import math
 
 # STILL USE DUMMY DATA
 # TODO: GET CORRECT DATA
@@ -62,7 +63,7 @@ def get_indonesia_medals(request):
         # serie = [year, rank, total_medals]
         serie.append(int(yearly_medal['Tahun']))
         serie.append(int(medals['Peringkat']))
-        serie.append(int(medals['Emas']) + int(medals['Perak']) + int(medals['Perunggu']))
+        serie.append(math.sqrt(int(medals['Emas']) + int(medals['Perak']) + int(medals['Perunggu'])))
 
         years.append(int(yearly_medal['Tahun']))
         series.append(serie)

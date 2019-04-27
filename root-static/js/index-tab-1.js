@@ -23,11 +23,29 @@ function loadIndonesiaMedals() {
         text: "Indonesia in Asian Games"
       },
       xaxis: {
-        tickAmount: data.years.length - 1,
+        min: 1978,
+        max: 2022,
+        minHeight: 1000,
+        tickAmount: data.years.length + 1,
         categories: data.years,
         title: {
           text: "Tahun Event"
-        }
+        },
+        labels: {
+          formatter: function(value) {
+            if (value === 2022 || value === 1978)
+              return ".";
+            return value;
+          },
+        },
+      },
+      tooltip: {
+        enabled: true,
+        z: {
+          formatter: function(value, { series, seriesIndex, dataPointIndex, w }) {
+            return Math.round(value * value);
+          },
+        },
       },
       yaxis: {
         title: {
