@@ -19,5 +19,6 @@ from . import views
 
 urlpatterns = [
     path('get-detail-country-gold-medals/', views.get_detail_country_gold_medals, name='detail-country-gold-medals'),
+    path('get-indonesia-medals/', views.get_indonesia_medals, name='indonesia-medals'),
     path('test-gisela/', views.test_gisela, name='test-gisela'),
 ]
