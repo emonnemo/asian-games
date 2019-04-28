@@ -25,7 +25,26 @@ function loadIndonesiaMedals() {
           data: data.series
         }
       ],
-      colors: ["#c8c8c8"],
+      states: {
+        normal: {
+          filter: {
+            type: "desaturate"
+          }
+        },
+        hover: {
+          filter: {
+            type: "darken",
+            value: 1
+          }
+        },
+        active: {
+          filter: {
+            type: "darken",
+            value: 1
+          }
+        }
+      },
+      colors: ["#d60000"],
       fill: {
         opacity: 0.8
       },
