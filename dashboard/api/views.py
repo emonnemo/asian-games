@@ -8,6 +8,7 @@ import math
 
 def get_country_gold_medals(request):
     data = settings.ASIA_MEDAL_JSON
+    countries = []
     years = []
     hosts = []
     countries_golds = {}
@@ -37,8 +38,10 @@ def get_country_gold_medals(request):
                 'code_name': country,
                 'data': list(golds.values()),
             })
+            countries.append(country)
 
     result = {
+        'countries': countries,
         'years': years,
         'hosts': hosts,
         'countries_medals': countries_medals,
@@ -47,9 +50,36 @@ def get_country_gold_medals(request):
 
 def get_detail_country_gold_medals(request):
     country = request.GET.get('country')
+    data = settings.ASIA_MEDAL_JSON
+    years = []
+    hosts = []
+    golds = {}
+    for yearly_data in data:
+        year = yearly_data['Tahun']
+        host = yearly_data['Tuan Rumah']
+        gold_data = yearly_data['Data']
+
+        years.append(year)
+        if host == country:
+            hosts.append(True)
+        else:
+            hosts.append(False)
+        for country_yearly_data in gold_data:
+            country_name = country_yearly_data['Negara']
+            if country_name == country:
+                gold = int(country_yearly_data['Emas'])
+                golds[year] = gold
+                break
+    
+    # Clean up gold data as some countries may not join every event
+    for year in years:
+        if year not in golds:
+            golds[year] = 0
+
     result = {
-        'year': [2006, 2010, 2014, 2018],
-        'golds': [15, 20, 30, 23],
+        'year': years,
+        'golds': list(golds.values()),
+        'hosts': hosts,
     }
     return JsonResponse(result)
 

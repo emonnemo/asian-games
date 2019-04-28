@@ -1,3 +1,9 @@
+// GLOBAL VARS
+HOST_COLOR = '#008000';
+NON_HOST_COLOR = '#808080';
+var countries;
+var selectedCountry;
+
 // hosts-line-chart
 var hostsLineChartOptions = {
     chart: {
@@ -6,6 +12,7 @@ var hostsLineChartOptions = {
             show: false,
         },
     },
+    colors: [NON_HOST_COLOR],
     series: [],
     xaxis: {
         categories: [],
@@ -17,6 +24,9 @@ var hostsLineChartOptions = {
         title: {
             text: 'Gold Medals',
         },
+    },
+    legend: {
+        show: false,
     },
 };
 var hostsLineChart = new ApexCharts(document.querySelector('#hosts-line-chart'), hostsLineChartOptions);
@@ -30,12 +40,17 @@ var individualCountryBarChartOptions = {
             show: false,
         },
     },
+    plotOptions: {
+        bar: {
+            distributed: true,
+        },
+    },
     series: [{
         name: 'Gold Medals',
-        data: [14, 20, 30, 23],
+        data: []
     }],
     xaxis: {
-        categories: [2006, 2010, 2014, 2018],
+        categories: [],
         title: {
             text: 'Year',
         },
@@ -52,20 +67,43 @@ var individualCountryBarChart = new ApexCharts(document.querySelector('#individu
 individualCountryBarChart.render();
 
 // Functions to call APIs using AJAX and update apex charts data
-function updateHostsLineChart() {
+function initHostsLineChart() {
     $.get('/dashboard/api/get-country-gold-medals', function(data) {
+        countries = data.countries;
         var hostsLineChartNewOptions = {
-            series: data['countries_medals'],
+            series: data.countries_medals,
             xaxis: {
-                categories: data['years'],
+                categories: data.years,
             },
         };
         hostsLineChart.updateOptions(hostsLineChartNewOptions);
+        insertSelectionData(data.hosts);
     });
+};
+
+function hightlightHostsLineChart(country) {
+    var colors = [];
+    countries.forEach(function(value, key, set) {
+        if (value === country)
+            colors.push(HOST_COLOR);
+        else
+            colors.push(NON_HOST_COLOR);
+    });
+    var hostsLineChartNewOptions = {
+        colors: colors,
+    };
+    hostsLineChart.updateOptions(hostsLineChartNewOptions);
 };
 
 function updateIndividualCountryBarChart(country) {
     $.get(format('/dashboard/api/get-detail-country-gold-medals?country=%s', country), function(data) {
+        var colors = [];
+        data.hosts.forEach(function(value, key, set) {
+            if (value === true)
+                colors.push(HOST_COLOR);
+            else
+                colors.push(NON_HOST_COLOR);
+        });
         var individualCountryBarChartNewOptions = {
             series: [{
                 data: data.golds,
@@ -73,14 +111,28 @@ function updateIndividualCountryBarChart(country) {
             xaxis: {
                 categories: data.year,
             },
+            colors: colors,
         };
         individualCountryBarChart.updateOptions(individualCountryBarChartNewOptions);
     });
 };
 
 // Functions to update displays
+function insertSelectionData(countries) {
+    var countriesSet = new Set(countries);
+    var selectOptions = '';
+    countriesSet.forEach(function(value, key, set) {
+        selectOptions += format('<option value="%s" %s>%s</option>', key, key === 'Indonesia' ? 'selected' : '', key);
+    });
+    $('#country-selector').html(selectOptions);
+    $('#country-selector').selectpicker('refresh');
+    selectCountry('Indonesia');
+};
+
 function selectCountry(country) {
+    selectedCountry = country;
     // TODO: Update country flag
-    $('#country-name').html('KOR');
+    $('#country-name').html(country.substring(0, 3));
+    hightlightHostsLineChart(country);
     updateIndividualCountryBarChart(country);
 };
