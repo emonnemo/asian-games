@@ -108,6 +108,23 @@ def get_indonesia_medals(request):
     }
     return JsonResponse(result)
 
+def get_indonesia_yearly_medals(request):
+    year = request.GET.get('year')
+    data = settings.INDONESIA_PROGRESS_JSON
+    series = []
+    for yearly_medal in data:
+        if not yearly_medal['Tahun'] == year:
+            continue
+        medals = yearly_medal['Data']
+        # series = [gold, silver, bronze]
+        series.append(int(medals['Emas']))
+        series.append(int(medals['Perak']))
+        series.append(int(medals['Perunggu']))
+    result = {
+        'series': series
+    }
+    return JsonResponse(result)
+
 def test_gisela(request):
     data = settings.TOTAL_MEDAL_JSON
     print (data)
