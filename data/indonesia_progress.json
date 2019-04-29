@@ -1,5 +1,85 @@
 [
     {
+        "Tahun": "1951",
+        "Data": {
+            "Emas": "0",
+            "Perak": "0",
+            "Perunggu": "5",
+            "Total": "5",
+            "Peringkat": "7"
+        }
+    },
+    {
+        "Tahun": "1954",
+        "Data": {
+            "Emas": "0",
+            "Perak": "0",
+            "Perunggu": "3",
+            "Total": "3",
+            "Peringkat": "11"
+        }
+    },
+    {
+        "Tahun": "1958",
+        "Data": {
+            "Emas": "0",
+            "Perak": "2",
+            "Perunggu": "4",
+            "Total": "6",
+            "Peringkat": "12"
+        }
+    },
+    {
+        "Tahun": "1962",
+        "Data": {
+            "Emas": "11",
+            "Perak": "12",
+            "Perunggu": "28",
+            "Total": "51",
+            "Peringkat": "2"
+        }
+    },
+    {
+        "Tahun": "1966",
+        "Data": {
+            "Emas": "5",
+            "Perak": "5",
+            "Perunggu": "12",
+            "Total": "22",
+            "Peringkat": "6"
+        }
+    },
+    {
+        "Tahun": "1970",
+        "Data": {
+            "Emas": "2",
+            "Perak": "5",
+            "Perunggu": "13",
+            "Total": "20",
+            "Peringkat": "4"
+        }
+    },
+    {
+        "Tahun": "1974",
+        "Data": {
+            "Emas": "3",
+            "Perak": "4",
+            "Perunggu": "4",
+            "Total": "11",
+            "Peringkat": "9"
+        }
+    },
+    {
+        "Tahun": "1978",
+        "Data": {
+            "Emas": "8",
+            "Perak": "7",
+            "Perunggu": "18",
+            "Total": "33",
+            "Peringkat": "7"
+        }
+    },
+    {
         "Tahun": "1982",
         "Data": {
             "Emas": "4",
