@@ -4,6 +4,9 @@ var indonesiaYearDonutChart;
 // Functions to load data from APIs using AJAX
 function loadIndonesiaMedals() {
   $.get(format("/dashboard/api/get-indonesia-medals"), function(data) {
+    const xAxis = $.map(data.years, function(v, i) {
+      return parseInt(i);
+    });
     var indonesiaBubbleChartOptions = {
       title: {
         text: "Indonesia in Asian Games"
@@ -48,18 +51,19 @@ function loadIndonesiaMedals() {
         opacity: 0.8
       },
       xaxis: {
-        min: 1978,
-        max: 2022,
+        min: xAxis[0] - 1,
+        max: xAxis[xAxis.length - 1] + 1,
         minHeight: 1000,
         tickAmount: data.years.length + 1,
-        categories: data.years,
+        categories: xAxis,
         title: {
           text: "Tahun Event"
         },
         labels: {
           formatter: function(value) {
-            if (value === 2022 || value === 1978) return ".";
-            return value;
+            if (value === xAxis[0] - 1 || value === xAxis[xAxis.length - 1] + 1)
+              return ".";
+            return data.years[value];
           }
         }
       },

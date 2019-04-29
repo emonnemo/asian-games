@@ -85,22 +85,24 @@ def get_detail_country_gold_medals(request):
 
 def get_indonesia_medals(request):
     data = settings.INDONESIA_PROGRESS_JSON
-    years, series = [], []
+    years = {}
+    series = []
     lowest_rank = 1
+    i = 0
     for yearly_medal in data:
         medals = yearly_medal['Data']
         serie = []
         # serie = [year, rank, total_medals]
-        serie.append(int(yearly_medal['Tahun']))
+        serie.append(i)
         serie.append(int(medals['Peringkat']))
         serie.append(math.sqrt(int(medals['Emas']) + int(medals['Perak']) + int(medals['Perunggu'])))
 
-        years.append(int(yearly_medal['Tahun']))
+        years[i] = int(yearly_medal['Tahun'])
         series.append(serie)
 
         if lowest_rank < int(medals['Peringkat']):
             lowest_rank = int(medals['Peringkat'])
-    print(series)
+        i += 1
     result = {
         'series': series,
         'years': years,
