@@ -18,6 +18,9 @@ function loadIndonesiaMedals() {
           dataPointSelection: function(event, chartContext, config) {
             updateIndonesiaYearlyMedals(data.years[config.dataPointIndex]);
           }
+        },
+        zoom: {
+          enabled: false
         }
       },
       dataLabels: {
