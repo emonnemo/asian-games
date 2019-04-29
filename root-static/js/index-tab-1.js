@@ -20,6 +20,7 @@ function loadIndonesiaMedals() {
       dataLabels: {
         enabled: false
       },
+      colors: ["#d60000"],
       series: [
         {
           data: data.series
@@ -39,12 +40,10 @@ function loadIndonesiaMedals() {
         },
         active: {
           filter: {
-            type: "darken",
-            value: 1
+            type: "darken"
           }
         }
       },
-      colors: ["#d60000"],
       fill: {
         opacity: 0.8
       },
@@ -90,6 +89,7 @@ function loadIndonesiaMedals() {
     );
 
     indonesiaBubbleChart.render();
+    $("#asian-games-yearly-logo").fadeIn(1000);
   });
 }
 function loadIndonesiaYearlyMedals(year) {
@@ -97,11 +97,11 @@ function loadIndonesiaYearlyMedals(year) {
     format("/dashboard/api/get-indonesia-yearly-medals?year=%s", year),
     function(data) {
       var indonesiaYearDonutChartOptions = {
-        title: {
-          text: "Medali Indonesia di Event Tahun " + year
-        },
         chart: {
           type: "donut"
+        },
+        legend: {
+          show: false
         },
         series: data.series,
         labels: ["Emas", "Perak", "Perunggu"],
@@ -180,12 +180,13 @@ function updateIndonesiaYearlyMedals(year) {
     format("/dashboard/api/get-indonesia-yearly-medals?year=%s", year),
     function(data) {
       var indonesiaYearDonutChartNewOptions = {
-        title: {
-          text: "Medali Indonesia di Event Tahun " + year
-        },
         series: data.series
       };
-
+      $("#chosen-year-indonesia-bubble-chart").html(year);
+      const newSrc = $("#asian-games-yearly-logo")
+        .attr("src")
+        .replace(/[\d]+/i, year);
+      $("#asian-games-yearly-logo").attr("src", newSrc);
       indonesiaYearDonutChart.updateOptions(indonesiaYearDonutChartNewOptions);
     }
   );
