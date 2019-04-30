@@ -51,10 +51,10 @@
             </div>
             <div class="tab-content content-3">
                 <div class="col-lg-6">
-                    <div id="bar-chart"></div>
+                    <div id="indonesia-sport-chart"></div>
                 </div>
-                <div class="col-lg-5">
-                    BD
+                <div class="col-lg-6">
+                    <div id="selection-sport-chart"></div>
                 </div>
             </div>
             <div class="tab-menus">
@@ -67,27 +67,8 @@
 </body>
 <script src="{% static "js/index-tab-1.js" %}"></script>
 <script src="{% static "js/index-tab-2.js" %}"></script>
+<script src="{% static "js/index-tab-3.js" %}"></script>
 <script>
-    // Script for apex charts
-    var barChartOptions = {
-        chart: {
-            type: 'bar'
-        },
-        series: [{
-            name: 'Number of Winnings',
-            data: [15, 10, 6, 4, 1],
-        }],
-        xaxis: {
-            categories: ['Indonesia', 'Japan', 'China', 'SG', 'Korea'],
-            title: {
-                text: 'Country',
-            },
-        },
-    };
-    var barChart = new ApexCharts(document.querySelector('#bar-chart'), barChartOptions);
-    barChart.render();
-
-
     $('.tab').click(function() {
         const elClassName = this.className.split(/\s+/)[1];
         const elIdentifier = elClassName.split('-')[1];
