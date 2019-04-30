@@ -22,5 +22,7 @@ urlpatterns = [
     path('get-detail-country-gold-medals/', views.get_detail_country_gold_medals, name='detail-country-gold-medals'),
     path('get-indonesia-medals/', views.get_indonesia_medals, name='indonesia-medals'),
     path('get-indonesia-yearly-medals/', views.get_indonesia_yearly_medals, name='indonesia-yearly-medals'),
+    path('get-indonesia-sport-medals/', views.get_indonesia_sport_medals, name='indonesia-sport-medals'),
+    path('get-indonesia-sport-summary/', views.get_indonesia_sport_summary, name='indonesia-sport-summary'),
     path('test-gisela/', views.test_gisela, name='test-gisela'),
 ]

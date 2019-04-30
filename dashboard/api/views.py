@@ -127,6 +127,90 @@ def get_indonesia_yearly_medals(request):
     }
     return JsonResponse(result)
 
+def get_indonesia_sport_medals(request):
+    event = request.GET.get('event')
+    indo_sport = ["Bridge", "Pencak Silat", "Paralayang", "Panjat Tebing", "Kurash"]
+    etc_sport = ["Perahu Naga", "Jet Ski", "Karate", "Olahraga Seluncur - Skateboard", "Sepak Takraw", "Soft Tenis"]
+
+    data = settings.INDONESIA_2018_JSON
+    result = {
+        'series': [],
+        'sports': []
+    }  
+
+    emas = {
+        'data': []
+    }
+    perak = {
+        'data' : []
+    }
+    perunggu = {
+        'data' : []
+    }
+    for sport in data:
+        medal = sport['Medali']
+    
+        if event == "indonesia" :
+            if sport['Cabor'] in indo_sport:
+                emas['name'] = "Emas"
+                perak['name'] = "Perak"
+                perunggu['name'] = "Perunggu"
+                emas['data'].append(medal.get('Emas', 0))
+                perak['data'].append(medal.get('Perak', 0))
+                perunggu['data'].append(medal.get('Perunggu', 0))
+                result['sports'].append(sport['Cabor'])
+        elif event == "else":
+            if sport['Cabor'] in etc_sport:
+                emas['name'] = "Emas"
+                perak['name'] = "Perak"
+                perunggu['name'] = "Perunggu"
+                emas['data'].append(medal.get('Emas', 0))
+                perak['data'].append(medal.get('Perak', 0))
+                perunggu['data'].append(medal.get('Perunggu', 0))
+                result['sports'].append(sport['Cabor'])
+        else:
+            emas['name'] = "Emas"
+            perak['name'] = "Perak"
+            perunggu['name'] = "Perunggu"
+            emas['data'].append(medal.get('Emas', 0))
+            perak['data'].append(medal.get('Perak', 0))
+            perunggu['data'].append(medal.get('Perunggu', 0))
+            result['sports'].append(sport['Cabor'])
+
+ 
+    result['series'].append(emas)
+    result['series'].append(perak)
+    result['series'].append(perunggu)
+    return JsonResponse(result) 
+
+def get_indonesia_sport_summary(request):
+    data = settings.INDONESIA_2018_JSON
+    indo_sport = ["Bridge", "Pencak Silat", "Paralayang", "Panjat Tebing", "Kurash"]
+    etc_sport = ["Perahu Naga", "Jet Ski", "Karate", "Olahraga Seluncur - Skateboard", "Sepak Takraw", "Soft Tenis"]
+    indo = 0
+    etc = 0
+    olympic = 0
+    series = []
+    for sport in data:
+        medal = sport['Medali']
+        if sport['Cabor'] in etc_sport:
+            etc = etc + medal.get('Emas', 0) + medal.get('Perak', 0) + medal.get('Perunggu', 0)
+        elif sport['Cabor'] in indo_sport:
+            indo = indo + medal.get('Emas', 0) + medal.get('Perak', 0) + medal.get('Perunggu', 0)
+        else :
+            olympic = olympic + medal.get('Emas', 0) + medal.get('Perak', 0) + medal.get('Perunggu', 0)
+            
+    # Series [Olympic, Indo, Else]
+    total = olympic + etc + indo
+    series.append(olympic/total)
+    series.append(indo/total)
+    series.append(etc/total)
+    result = {
+        'series': series,
+        'labels': ["Olimpiade", "Pilihan Indonesia", "Lainnya"]
+    }   
+    return JsonResponse(result) 
+
 def test_gisela(request):
     data = settings.TOTAL_MEDAL_JSON
     print (data)
