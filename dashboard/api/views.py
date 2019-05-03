@@ -150,7 +150,7 @@ def get_indonesia_sport_medals(request):
     for sport in data:
         medal = sport['Medali']
     
-        if event == "indonesia" :
+        if event == "Pilihan Indonesia" :
             if sport['Cabor'] in indo_sport:
                 emas['name'] = "Emas"
                 perak['name'] = "Perak"
@@ -159,7 +159,7 @@ def get_indonesia_sport_medals(request):
                 perak['data'].append(medal.get('Perak', 0))
                 perunggu['data'].append(medal.get('Perunggu', 0))
                 result['sports'].append(sport['Cabor'])
-        elif event == "else":
+        elif event == "Lainnya":
             if sport['Cabor'] in etc_sport:
                 emas['name'] = "Emas"
                 perak['name'] = "Perak"

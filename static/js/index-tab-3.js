@@ -1,10 +1,18 @@
+let selectionSportChart;
+
 function loadIndonesiaSportSummaryChart() {
 	$.get(
 		format("/dashboard/api/get-indonesia-sport-summary/"),
 		function(data) {
 			var indonesiaSportSummaryChartOptions = {
 				chart: {
-					type: "pie"
+					type: "donut",
+					events: {
+						dataPointSelection: function(event, chartContext, config) {
+							console.log(data.labels[config.dataPointIndex])
+							updateSelectionSportChart(data.labels[config.dataPointIndex]);
+						}
+					},
 				},
 				legend: {
 					show: false
@@ -102,20 +110,18 @@ function loadSelectionSportChart(event) {
 				},
 				series: data.series,
 				title: {
-						text: '100% Stacked Bar'
+						text: 'Perolehan Medali Indonesia pada Asian Games 2018'
 				},
 				colors: ["#e1ca60", "#d3d3d1", "#cc8b4b"],
 				xaxis: {
 						categories: data.sports,
 				},
-			
 				tooltip: {
 				},
 				fill: {
 						opacity: 1
 						
 				},
-				
 				legend: {
 						position: 'top',
 						horizontalAlign: 'left',
@@ -123,16 +129,31 @@ function loadSelectionSportChart(event) {
 				}
 		}
 
-		var selectionSportChart = new ApexCharts(
-					document.querySelector("#selection-sport-chart"),
-					selectionChartOptions
+		selectionSportChart = new ApexCharts(
+			document.querySelector("#selection-sport-chart"),
+			selectionChartOptions
 		);
 		
 		selectionSportChart.render();
 	});
 }
 
+function updateSelectionSportChart(event) {
+  $.get(
+    format("/dashboard/api/get-indonesia-sport-medals?event=%s", event),
+    function(data) {
+      var selectionSportChartOptions = {
+				series: data.series,
+				xaxis: {
+					categories: data.sports,
+				}
+      };
+      selectionSportChart.updateOptions(selectionSportChartOptions);
+    }
+  );
+}
+
 window.onload = function() {
 	loadIndonesiaSportSummaryChart()
-	loadSelectionSportChart("indonesia")
+	loadSelectionSportChart("Pilihan Indonesia")
 }
