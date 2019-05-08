@@ -16,11 +16,11 @@ function loadIndonesiaSportSummaryChart() {
 					},
 				},
 				legend: {
-					show: false
+					position: 'bottom'
 				},
 				series: data.series,
 				labels: data.labels,
-				colors: ["#ffea63", "#4E873D", "#AFBFDC"],
+				colors: ["#b2bcff", "#edb2ff", "#ffa8a8"],
 				responsive: [{
 					breakpoint: 480,
 					options: {
@@ -59,16 +59,12 @@ function loadSelectionSportChart(event) {
 						bar: {
 								horizontal: true,
 						},
-						
 				},
 				stroke: {
 						width: 1,
 						colors: ['#fff']
 				},
 				series: data.series,
-				title: {
-						text: 'Perolehan Medali Indonesia pada Asian Games 2018'
-				},
 				colors: ["#e1ca60", "#d3d3d1", "#cc8b4b"],
 				xaxis: {
 						categories: data.sports,
@@ -80,8 +76,8 @@ function loadSelectionSportChart(event) {
 						
 				},
 				legend: {
-						position: 'top',
-						horizontalAlign: 'left',
+						position: 'bottom',
+						horizontalAlign: 'center',
 						offsetX: 40
 				}
 		}

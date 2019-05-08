@@ -43,13 +43,7 @@
 }
 
 .content-3 {
-  background-color: #f0fdff;
-  background-image: -webkit-linear-gradient(
-    -90deg,
-    #f0fdff 0vh,
-    #f0fdff 70vh,
-    #d9e8eb 90vh
-  );
+  background-color: #ffffff;
   z-index: 0;
 }
 
