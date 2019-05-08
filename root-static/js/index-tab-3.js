@@ -6,7 +6,8 @@ function loadIndonesiaSportSummaryChart() {
 		function(data) {
 			var indonesiaSportSummaryChartOptions = {
 				chart: {
-					type: "donut",
+					height : 600,
+					type: "pie",
 					events: {
 						dataPointSelection: function(event, chartContext, config) {
 							console.log(data.labels[config.dataPointIndex])
@@ -15,55 +16,11 @@ function loadIndonesiaSportSummaryChart() {
 					},
 				},
 				legend: {
-					show: false
+					position: 'bottom'
 				},
 				series: data.series,
 				labels: data.labels,
-				colors: ["#e1ca60", "#d3d3d1", "#cc8b4b"],
-				fill: {
-					type: "gradient",
-					gradient: {
-						colorStops: [
-							[
-								{
-									offset: 80,
-									color: "#e1ca60",
-									opacity: 1
-								},
-								{
-									offset: 100,
-									color: "#bc9631",
-									opacity: 1
-								}
-							],
-							[
-								{
-									offset: 80,
-									color: "#d3d3d1",
-									opacity: 1
-								},
-								{
-									offset: 100,
-									color: "#8e8e8e",
-									opacity: 1
-								}
-							],
-							[
-								{
-									offset: 80,
-									color: "#cc8b4b",
-									opacity: 1
-								},
-								{
-									offset: 100,
-									color: "#aa6321",
-									opacity: 1
-								}
-							]
-						],
-						stops: [0, 70, 100]
-					}
-				},
+				colors: ["#b2bcff", "#edb2ff", "#ffa8a8"],
 				responsive: [{
 					breakpoint: 480,
 					options: {
@@ -102,16 +59,12 @@ function loadSelectionSportChart(event) {
 						bar: {
 								horizontal: true,
 						},
-						
 				},
 				stroke: {
 						width: 1,
 						colors: ['#fff']
 				},
 				series: data.series,
-				title: {
-						text: 'Perolehan Medali Indonesia pada Asian Games 2018'
-				},
 				colors: ["#e1ca60", "#d3d3d1", "#cc8b4b"],
 				xaxis: {
 						categories: data.sports,
@@ -123,8 +76,8 @@ function loadSelectionSportChart(event) {
 						
 				},
 				legend: {
-						position: 'top',
-						horizontalAlign: 'left',
+						position: 'bottom',
+						horizontalAlign: 'center',
 						offsetX: 40
 				}
 		}

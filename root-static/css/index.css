@@ -4,6 +4,7 @@
 
 #page-title {
   height: 8vh;
+  font-family: 'Righteous', cursive;
 }
 
 .page-content {
@@ -43,13 +44,7 @@
 }
 
 .content-3 {
-  background-color: #f0fdff;
-  background-image: -webkit-linear-gradient(
-    -90deg,
-    #f0fdff 0vh,
-    #f0fdff 70vh,
-    #d9e8eb 90vh
-  );
+  background-color: #ffffff;
   z-index: 0;
 }
 
@@ -129,4 +124,14 @@
 
 .country-select {
   width: 100% !important;
+}
+
+#summary-title {
+  text-align: center;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+
+#selection-title {
+  text-align: center;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
 }
