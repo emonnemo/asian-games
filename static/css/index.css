@@ -1,81 +1,71 @@
 #container {
   max-width: 100vw;
+  height: 100vh;
+  background-color: rgb(187, 52, 49);
 }
 
 #page-title {
   height: 8vh;
-  font-family: 'Righteous', cursive;
+  font-family: "Righteous", cursive;
+  position: relative;
+  display: flex;
+}
+
+#page-title h1 {
+  color: white;
+  margin-left: 2rem;
 }
 
 .page-content {
-  height: 90vh;
   width: 100%;
   display: flex;
-  position: relative;
 }
 
 .tab-content {
-  height: 100%;
-  width: 95%;
-  border: solid 2px;
+  height: 92vh;
+  width: 100%;
+  border-top: solid 2px;
   position: absolute;
+  background-color: #ffffff;
 }
 
 .content-1 {
-  background-color: #ffffff;
   z-index: 2;
 }
 
 .content-2 {
-  background-color: #ffffff;
   z-index: 1;
 }
 
 .content-3 {
-  background-color: #ffffff;
   z-index: 0;
 }
 
 .tab-menus {
-  width: 5%;
+  width: 50%;
+  height: 4vh;
   position: absolute;
-  left: 95%;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
 .tab {
-  height: 20vh;
-  border-radius: 0 2rem 2rem 0;
-  width: 100%;
+  height: 80%;
+  border-radius: 2rem 2rem 0 0;
+  width: 34%;
   border: solid 2px;
-  border-left: 0;
-  position: absolute;
-  left: -2px;
+  border-bottom: 0;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.tab div {
-  transform: translate(-50%, -50%) rotate(90deg);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 20vh;
-  text-align: center;
-}
-
-.tab-1 {
-  background-color: #fffff0;
-  z-index: 2;
-}
-
-.tab-2 {
-  background-color: #f1fff0;
-  top: 19vh;
-  z-index: 1;
-}
-
-.tab-3 {
-  background-color: #f0fdff;
-  top: 38vh;
-  z-index: 0;
+.tab.active {
+  height: 120%;
 }
 
 #asian-games-yearly-logo {
@@ -123,5 +113,5 @@
 
 #chart-title {
   text-align: center;
-  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  font-family: "Fira Sans Extra Condensed", sans-serif;
 }

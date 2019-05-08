@@ -19,13 +19,18 @@
     <div id="container">
         <div id="page-title">
             <h1>Indonesia dalam Asian Games</h1>
+            <div class="tab-menus">
+                <div class="tab tab-1 active">Page 1</div>
+                <div class="tab tab-2">Page 2</div>
+                <div class="tab tab-3">Page 3</div>
+            </div>
         </div>
         <div class="page-content">
             <div class="tab-content content-1">
-                <div class="col-lg-7">
+                <div class="col-lg-8">
                     <div id="indonesia-bubble-chart"></div>
                 </div>
-                <div class="col-lg-5 position-relative">
+                <div class="col-lg-4 position-relative">
                     <div class="chart-title">
                         Medali Indonesia di Event Tahun <span id="chosen-year-indonesia-bubble-chart">2018</span>
                     </div>
@@ -73,11 +78,6 @@
                     <div id="selection-sport-chart"></div>
                 </div>
             </div>
-            <div class="tab-menus">
-                <div class="tab tab-1"><div>Page 1</div></div>
-                <div class="tab tab-2"><div>Page 2</div></div>
-                <div class="tab tab-3"><div>Page 3</div></div>
-            </div>
         </div>
     </div>
 </body>
@@ -85,6 +85,7 @@
 <script src="{% static "js/index-tab-2.js" %}"></script>
 <script src="{% static "js/index-tab-3.js" %}"></script>
 <script>
+    var activeTab = $('.active');
     // Load all chart 
     // Page 1
     loadIndonesiaMedals();
@@ -100,21 +101,18 @@
     $('.tab').click(function() {
         const elClassName = this.className.split(/\s+/)[1];
         const elIdentifier = elClassName.split('-')[1];
+        activeTab.css('height', '80%');
 
         // set all pages to the original position
-        $('.tab-1').css('z-index', 2);
-        $('.tab-2').css('z-index', 1);
-        $('.tab-3').css('z-index', 0);
         $('.content-1').css('z-index', 2);
         $('.content-2').css('z-index', 1);
         $('.content-3').css('z-index', 0);
 
         // set selected page to the front
-        $(this).css('z-index', 4);
+        $(this).css('height', '120%');
+        activeTab = $(this);
         $('.content-' + elIdentifier).css('z-index', 3);
     })
-    $('.tab-2').css('z-index', 6);
-    $('.content-2').css('z-index,', 5);
 
 </script>
 
