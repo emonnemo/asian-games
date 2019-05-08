@@ -4,6 +4,7 @@
 
 #page-title {
   height: 8vh;
+  font-family: 'Righteous', cursive;
 }
 
 .page-content {
@@ -107,4 +108,14 @@
 
 .country-select {
   width: 100% !important;
+}
+
+#summary-title {
+  text-align: center;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+
+#selection-title {
+  text-align: center;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
 }
