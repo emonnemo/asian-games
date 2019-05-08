@@ -6,7 +6,8 @@ function loadIndonesiaSportSummaryChart() {
 		function(data) {
 			var indonesiaSportSummaryChartOptions = {
 				chart: {
-					type: "donut",
+					height : 600,
+					type: "pie",
 					events: {
 						dataPointSelection: function(event, chartContext, config) {
 							console.log(data.labels[config.dataPointIndex])
@@ -19,51 +20,7 @@ function loadIndonesiaSportSummaryChart() {
 				},
 				series: data.series,
 				labels: data.labels,
-				colors: ["#e1ca60", "#d3d3d1", "#cc8b4b"],
-				fill: {
-					type: "gradient",
-					gradient: {
-						colorStops: [
-							[
-								{
-									offset: 80,
-									color: "#e1ca60",
-									opacity: 1
-								},
-								{
-									offset: 100,
-									color: "#bc9631",
-									opacity: 1
-								}
-							],
-							[
-								{
-									offset: 80,
-									color: "#d3d3d1",
-									opacity: 1
-								},
-								{
-									offset: 100,
-									color: "#8e8e8e",
-									opacity: 1
-								}
-							],
-							[
-								{
-									offset: 80,
-									color: "#cc8b4b",
-									opacity: 1
-								},
-								{
-									offset: 100,
-									color: "#aa6321",
-									opacity: 1
-								}
-							]
-						],
-						stops: [0, 70, 100]
-					}
-				},
+				colors: ["#ffea63", "#4E873D", "#AFBFDC"],
 				responsive: [{
 					breakpoint: 480,
 					options: {

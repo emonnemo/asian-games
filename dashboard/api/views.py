@@ -126,7 +126,7 @@ def get_indonesia_yearly_medals(request):
         'series': series
     }
     return JsonResponse(result)
-
+ 
 def get_indonesia_sport_medals(request):
     event = request.GET.get('event')
     indo_sport = ["Bridge", "Pencak Silat", "Paralayang", "Panjat Tebing", "Kurash"]
@@ -139,45 +139,40 @@ def get_indonesia_sport_medals(request):
     }  
 
     emas = {
-        'data': []
+        'data': [],
+        'name': 'Emas'
     }
     perak = {
-        'data' : []
+        'data' : [],
+        'name' : 'Perak'
     }
     perunggu = {
-        'data' : []
+        'data' : [],
+        'name' : 'Perunggu'
     }
+
     for sport in data:
         medal = sport['Medali']
     
         if event == "Pilihan Indonesia" :
             if sport['Cabor'] in indo_sport:
-                emas['name'] = "Emas"
-                perak['name'] = "Perak"
-                perunggu['name'] = "Perunggu"
                 emas['data'].append(medal.get('Emas', 0))
                 perak['data'].append(medal.get('Perak', 0))
                 perunggu['data'].append(medal.get('Perunggu', 0))
                 result['sports'].append(sport['Cabor'])
         elif event == "Lainnya":
             if sport['Cabor'] in etc_sport:
-                emas['name'] = "Emas"
-                perak['name'] = "Perak"
-                perunggu['name'] = "Perunggu"
                 emas['data'].append(medal.get('Emas', 0))
                 perak['data'].append(medal.get('Perak', 0))
                 perunggu['data'].append(medal.get('Perunggu', 0))
                 result['sports'].append(sport['Cabor'])
         else:
-            emas['name'] = "Emas"
-            perak['name'] = "Perak"
-            perunggu['name'] = "Perunggu"
             emas['data'].append(medal.get('Emas', 0))
             perak['data'].append(medal.get('Perak', 0))
             perunggu['data'].append(medal.get('Perunggu', 0))
             result['sports'].append(sport['Cabor'])
-
- 
+        
+    emas['data'], perak['data'], perunggu['data'], result['sports'] = map(list, zip(*sorted(zip(emas['data'], perak['data'], perunggu['data'], result['sports']), reverse=True)))
     result['series'].append(emas)
     result['series'].append(perak)
     result['series'].append(perunggu)
