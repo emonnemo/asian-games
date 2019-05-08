@@ -39,8 +39,10 @@
                 </div>
                 <div class="col-lg-2">
                     <div class="row">
-                        <div id="country-name" class="country-name">IDN</div>
-                        <!-- TODO: Change to country flags -->
+                        <!--<div id="country-name" class="country-name">IDN</div>-->
+                        <div id="country-flag" class="country-flag">
+                            <img id="country-flag-image" class="country-flag-image" height="100%" src="{% static "assets/country-flags/Indonesia.svg" %}"></img>
+                        </div>
                         <select id="country-selector" class="country-select selectpicker" onchange="selectCountry(this.value)">
                         </select>
                     </div>

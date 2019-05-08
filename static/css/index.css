@@ -111,6 +111,22 @@
   text-align: center;
 }
 
+.country-flag {
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+}
+
+.country-flag-image {
+  -ms-transform: translate(-50px, 0px); /* IE 9 */
+  -webkit-transform: translate(-50px, 0px); /* Safari */
+  transform: translate(-50px, 0px);
+}
+
 .country-select {
   width: 100% !important;
 }
