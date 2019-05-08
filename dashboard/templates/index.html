@@ -69,6 +69,17 @@
 <script src="{% static "js/index-tab-2.js" %}"></script>
 <script src="{% static "js/index-tab-3.js" %}"></script>
 <script>
+    // Load all chart 
+    // Page 1
+    loadIndonesiaMedals();
+    loadIndonesiaYearlyMedals(2018);
+
+    // Page 2
+
+    // Page 3
+	loadIndonesiaSportSummaryChart();
+	loadSelectionSportChart("Pilihan Indonesia");
+    
     $('.tab').click(function() {
         const elClassName = this.className.split(/\s+/)[1];
         const elIdentifier = elClassName.split('-')[1];
@@ -87,6 +98,7 @@
     })
     $('.tab-2').css('z-index', 6);
     $('.content-2').css('z-index,', 5);
+
 </script>
 </html>
 

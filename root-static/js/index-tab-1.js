@@ -198,8 +198,3 @@ function updateIndonesiaYearlyMedals(year) {
     }
   );
 }
-
-window.onload = function() {
-  loadIndonesiaMedals();
-  loadIndonesiaYearlyMedals(2018);
-};

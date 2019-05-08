@@ -152,8 +152,3 @@ function updateSelectionSportChart(event) {
     }
   );
 }
-
-window.onload = function() {
-	loadIndonesiaSportSummaryChart()
-	loadSelectionSportChart("Pilihan Indonesia")
-}
