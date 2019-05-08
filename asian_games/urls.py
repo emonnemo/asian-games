@@ -19,6 +19,7 @@ from django.urls import path, include
 from django.conf.urls.static import static
 
 urlpatterns = [
+    path('', include('dashboard.urls')),
     path('dashboard/', include('dashboard.urls')),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 
