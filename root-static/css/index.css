@@ -4,6 +4,7 @@
 
 #page-title {
   height: 8vh;
+  font-family: 'Righteous', cursive;
 }
 
 .page-content {
@@ -32,24 +33,12 @@
 }
 
 .content-2 {
-  background-color: #f1fff0;
-  background-image: -webkit-linear-gradient(
-    -90deg,
-    #f1fff0 0vh,
-    #f1fff0 70vh,
-    #dcebdb 90vh
-  );
+  background-color: #ffffff;
   z-index: 1;
 }
 
 .content-3 {
-  background-color: #f0fdff;
-  background-image: -webkit-linear-gradient(
-    -90deg,
-    #f0fdff 0vh,
-    #f0fdff 70vh,
-    #d9e8eb 90vh
-  );
+  background-color: #ffffff;
   z-index: 0;
 }
 
@@ -111,6 +100,29 @@
   text-align: center;
 }
 
+.country-flag {
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  border: 2px solid #000000;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+}
+
+.country-flag-image {
+  -ms-transform: translate(-50px, 0px); /* IE 9 */
+  -moz-transform: translate(-50px, 0px); /* Mozzila */
+  -webkit-transform: translate(-50px, 0px); /* Safari */
+  transform: translate(-50px, 0px);
+}
+
 .country-select {
   width: 100% !important;
+}
+
+#chart-title {
+  text-align: center;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
 }

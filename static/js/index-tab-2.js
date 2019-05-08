@@ -1,6 +1,8 @@
 // GLOBAL VARS
-HOST_COLOR = '#008000';
-NON_HOST_COLOR = '#808080';
+HOST_COLOR = '#bb3431';
+NON_HOST_COLOR = '#c9c9c9';
+HOST_STROKE = 4;
+NON_HOST_STROKE = 1;
 var countries;
 var selectedCountry;
 
@@ -27,6 +29,9 @@ var hostsLineChartOptions = {
     },
     legend: {
         show: false,
+    },
+    stroke: {
+        width: [1, 1, 1, 1, 4, 1, 1],
     },
 };
 var hostsLineChart = new ApexCharts(document.querySelector('#hosts-line-chart'), hostsLineChartOptions);
@@ -83,14 +88,21 @@ function initHostsLineChart() {
 
 function hightlightHostsLineChart(country) {
     var colors = [];
+    var strokes = [];
     countries.forEach(function(value, key, set) {
-        if (value === country)
+        if (value === country) {
             colors.push(HOST_COLOR);
-        else
+            strokes.push(HOST_STROKE);
+        } else {
             colors.push(NON_HOST_COLOR);
+            strokes.push(NON_HOST_STROKE);
+        }
     });
     var hostsLineChartNewOptions = {
         colors: colors,
+        stroke: {
+            width: strokes,
+        },
     };
     hostsLineChart.updateOptions(hostsLineChartNewOptions);
 };
@@ -131,8 +143,8 @@ function insertSelectionData(countries) {
 
 function selectCountry(country) {
     selectedCountry = country;
-    // TODO: Update country flag
-    $('#country-name').html(country.substring(0, 3));
+    $('#country-flag-image').attr('src', format('static/assets/country-flags/%s.svg', country));
+    //$('#country-name').html(country.substring(0, 3));
     hightlightHostsLineChart(country);
     updateIndividualCountryBarChart(country);
 };
