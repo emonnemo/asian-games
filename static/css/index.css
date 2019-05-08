@@ -22,13 +22,7 @@
 }
 
 .content-1 {
-  background-color: #fffff0;
-  background-image: -webkit-linear-gradient(
-    -90deg,
-    #fffff0 0vh,
-    #fffff0 70vh,
-    #e8e6da 90vh
-  );
+  background-color: #ffffff;
   z-index: 2;
 }
 
@@ -93,6 +87,11 @@
   max-height: 40%;
   max-width: 40%;
   object-fit: contain;
+  filter: grayscale(100%) opacity(30%);
+}
+
+#indonesia-year-donut-chart-container:hover #asian-games-yearly-logo {
+  filter: none;
 }
 
 .country-name {
