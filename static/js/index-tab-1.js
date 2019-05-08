@@ -1,5 +1,10 @@
 var indonesiaBubbleChart;
 var indonesiaYearDonutChart;
+var activeBubble;
+
+const ACTIVE_COLOR = "rgb(187, 52, 49)";
+const NORMAL_COLOR = "rgb(201, 201, 201)";
+const HOVER_COLOR = "rgb(151, 151, 151)";
 
 // Functions to load data from APIs using AJAX
 function loadIndonesiaMedals() {
@@ -26,18 +31,13 @@ function loadIndonesiaMedals() {
       dataLabels: {
         enabled: false
       },
-      colors: ["#d60000"],
+      colors: [NORMAL_COLOR],
       series: [
         {
           data: data.series
         }
       ],
       states: {
-        normal: {
-          filter: {
-            type: "desaturate"
-          }
-        },
         hover: {
           filter: {
             type: "darken",
@@ -46,12 +46,13 @@ function loadIndonesiaMedals() {
         },
         active: {
           filter: {
-            type: "darken"
+            type: "normal",
+            value: 1
           }
         }
       },
       fill: {
-        opacity: 0.8
+        opacity: 1
       },
       xaxis: {
         min: xAxis[0] - 1,
@@ -97,6 +98,7 @@ function loadIndonesiaMedals() {
 
     indonesiaBubbleChart.render();
     $("#asian-games-yearly-logo").fadeIn(1000);
+    setBubbleDisplayFunction();
   });
 }
 function loadIndonesiaYearlyMedals(year) {
@@ -197,4 +199,24 @@ function updateIndonesiaYearlyMedals(year) {
       indonesiaYearDonutChart.updateOptions(indonesiaYearDonutChartNewOptions);
     }
   );
+}
+function setBubbleDisplayFunction() {
+  var bubbles = $(".apexcharts-series-markers.apexcharts-series-bubble circle");
+  bubbles.hover(function() {
+    if (this.style.fill !== ACTIVE_COLOR) {
+      this.style.fill = HOVER_COLOR;
+    }
+  });
+  bubbles.mouseleave(function() {
+    if (this.style.fill === HOVER_COLOR) {
+      this.style.fill = NORMAL_COLOR;
+    }
+  });
+  bubbles.click(function() {
+    if (activeBubble) {
+      activeBubble.style.fill = NORMAL_COLOR;
+    }
+    this.style.fill = ACTIVE_COLOR;
+    activeBubble = this;
+  });
 }
