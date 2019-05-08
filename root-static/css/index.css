@@ -126,12 +126,7 @@
   width: 100% !important;
 }
 
-#summary-title {
-  text-align: center;
-  font-family: 'Fira Sans Extra Condensed', sans-serif;
-}
-
-#selection-title {
+#chart-title {
   text-align: center;
   font-family: 'Fira Sans Extra Condensed', sans-serif;
 }
