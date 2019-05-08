@@ -219,4 +219,5 @@ function setBubbleDisplayFunction() {
     this.style.fill = ACTIVE_COLOR;
     activeBubble = this;
   });
+  bubbles.last()[0].dispatchEvent(new Event("click"));
 }
