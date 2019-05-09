@@ -31,7 +31,17 @@ function loadIndonesiaSportSummaryChart() {
             }
           }
         }
-      ]
+      ],
+      tooltip: {
+        y: {
+          formatter: function(
+            value,
+            { series, seriesIndex, dataPointIndex, w }
+          ) {
+            return Math.round(value * data.total) + " medali";
+          }
+        }
+      }
     };
 
     indonesiaSportSummaryChart = new ApexCharts(
