@@ -160,6 +160,7 @@ function insertSelectionData(countries) {
 
 function selectCountry(country) {
   selectedCountry = country;
+  $('#detail-country-title').html(format('<h3>Perolehan Medali Negara %s pada 10 Event Terakhir</h3>', country));
   imageFormat = 'svg';
   if (country === 'China') {
     $('#country-flag-image').removeClass('country-flag-image');

@@ -1,10 +1,11 @@
 let selectionSportChart;
 
 function loadIndonesiaSportSummaryChart() {
+  const containerHeight = $(".tab-content").innerHeight();
   $.get(format("/dashboard/api/get-indonesia-sport-summary/"), function(data) {
     var indonesiaSportSummaryChartOptions = {
       chart: {
-        height: 600,
+        height: containerHeight * 0.5,
         type: "pie",
         events: {
           dataPointSelection: function(event, chartContext, config) {
@@ -53,12 +54,13 @@ function loadIndonesiaSportSummaryChart() {
   });
 }
 function loadSelectionSportChart(event) {
+  const containerHeight = $(".tab-content").innerHeight();
   $.get(
     format("/dashboard/api/get-indonesia-sport-medals?event=%s", event),
     function(data) {
       var selectionChartOptions = {
         chart: {
-          height: 550,
+          height: containerHeight * 0.5,
           type: "bar",
           stacked: true
         },
