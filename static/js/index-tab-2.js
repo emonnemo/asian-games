@@ -160,9 +160,16 @@ function insertSelectionData(countries) {
 
 function selectCountry(country) {
   selectedCountry = country;
+  imageFormat = 'svg';
+  if (country === 'China') {
+    $('#country-flag-image').removeClass('country-flag-image');
+    imageFormat = 'png';
+  } else {
+    $('#country-flag-image').addClass('country-flag-image');
+  }
   $("#country-flag-image").attr(
     "src",
-    format("/static/assets/country-flags/%s.svg", country)
+    format("/static/assets/country-flags/%s.%s", country, imageFormat)
   );
   //$('#country-name').html(country.substring(0, 3));
   hightlightHostsLineChart(country);
