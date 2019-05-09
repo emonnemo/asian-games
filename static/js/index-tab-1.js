@@ -8,13 +8,15 @@ const HOVER_COLOR = "rgb(151, 151, 151)";
 
 // Functions to load data from APIs using AJAX
 function loadIndonesiaMedals() {
+  const containerHeight = $(".tab-content").innerHeight();
+  console.log(containerHeight);
   $.get(format("/dashboard/api/get-indonesia-medals"), function(data) {
     const xAxis = $.map(data.years, function(v, i) {
       return parseInt(i);
     });
     var indonesiaBubbleChartOptions = {
       chart: {
-        height: 700,
+        height: containerHeight > 700 ? containerHeight - 210 : 700,
         type: "bubble",
         events: {
           dataPointSelection: function(event, chartContext, config) {

@@ -27,6 +27,8 @@
   border-top: solid 2px;
   position: absolute;
   background-color: #ffffff;
+  display: flex;
+  align-items: center;
 }
 
 .content-1 {
