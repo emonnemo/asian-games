@@ -13,9 +13,6 @@ function loadIndonesiaMedals() {
       return parseInt(i);
     });
     var indonesiaBubbleChartOptions = {
-      title: {
-        text: "Indonesia in Asian Games"
-      },
       chart: {
         height: 700,
         type: "bubble",
