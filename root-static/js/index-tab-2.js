@@ -143,7 +143,7 @@ function insertSelectionData(countries) {
 
 function selectCountry(country) {
     selectedCountry = country;
-    $('#country-flag-image').attr('src', format('static/assets/country-flags/%s.svg', country));
+    $('#country-flag-image').attr('src', format('/static/assets/country-flags/%s.svg', country));
     //$('#country-name').html(country.substring(0, 3));
     hightlightHostsLineChart(country);
     updateIndividualCountryBarChart(country);
