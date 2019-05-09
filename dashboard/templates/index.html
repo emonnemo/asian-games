@@ -36,6 +36,10 @@
                     <div id="indonesia-bubble-chart"></div>
                 </div>
                 <div class="col-lg-4 position-relative">
+                    <div class="annotation text-justify">
+                        Indonesia memperoleh perolehan medali paling banyak sepanjang sejaran Indonesia pada Asian Games 2018.
+                        Apakah ini menjadi pertanda bahwa Indonesia telah bangkit, atau hanya faktor tuan rumah yang menjadi pemberi semangat lebih bagi atlet Indonesia?
+                    </div>
                     <div id="chart-title">
                         <h3>  Medali Indonesia di Event Tahun <span id="chosen-year-indonesia-bubble-chart">2018</span> </h3>
                     </div>
@@ -46,43 +50,62 @@
                 </div>
             </div>
             <div class="tab-content content-2">
-                <div class="col-lg-5">
-                    <div id="chart-title">
-                        <h3> Perolehan Medali Negara Tuan Rumah pada 10 Event Terakhir </h3>    
-                    </div>
-                    <div id="hosts-line-chart"></div>
-                </div>
-                <div class="col-lg-2">
-                    <div class="row">
-                        <!--<div id="country-name" class="country-name">IDN</div>-->
-                        <div id="country-flag" class="country-flag">
-                            <img id="country-flag-image" class="country-flag-image" height="100%" src="{% static "assets/country-flags/Indonesia.svg" %}"></img>
+                <div class="charts">
+                    <div class="col-lg-5">
+                        <div id="chart-title">
+                            <h3> Perolehan Medali Negara Tuan Rumah pada 10 Event Terakhir </h3>    
                         </div>
-                        <select id="country-selector" class="country-select selectpicker" onchange="selectCountry(this.value)">
-                        </select>
+                        <div id="hosts-line-chart"></div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="row">
+                            <!--<div id="country-name" class="country-name">IDN</div>-->
+                            <div id="country-flag" class="country-flag">
+                                <img id="country-flag-image" class="country-flag-image" height="100%" src="{% static "assets/country-flags/Indonesia.svg" %}"></img>
+                            </div>
+                            <select id="country-selector" class="country-select selectpicker" onchange="selectCountry(this.value)">
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div id="chart-title">
+                            <h3> Perolehan Medali Negara Tuan Rumah pada 10 Event Terakhir </h3>    
+                        </div>
+                        <div id="individual-country-bar-chart"></div>
                     </div>
                 </div>
-                <div class="col-lg-5">
-                    <div id="chart-title">
-                        <h3> Perolehan Medali Negara Tuan Rumah pada 10 Event Terakhir </h3>    
-                    </div>
-                    <div id="individual-country-bar-chart"></div>
+                <div class="annotation text-justify">
+                    Data statistik menunjukkan bahwa semua negara cenderung mengalami peningkatan saat menjadi tuan rumah,
+                    begitu pula halnya yang dialami oleh Indonesia.
+                    Hal ini tidak terlepas dari hak tuan rumah untuk menambahkan 5 cabor pilihannya sendiri.
+                    Seberapa signifikan pengaruh cabor pilihan untuk Indonesia pada Asian Games 2018?
                 </div>
             </div>
             <div class="tab-content content-3">
-                <div class="col-lg-6">
-                    <div id="chart-title">
-                        <h3 class="mb-0"> Perolehan Medali Indonesia pada Asian Games 2018 Berdasarkan Jenis Cabor</h3>
-                    </div>
-                    <div class="chart-instruction text-center">Klik untuk mengganti jenis kelompok cabor</div>
-                    <div id="indonesia-sport-chart"></div>
+                <div class="annotation text-justify">
+                    Ternyata, cabor pilihan Indonesia terbukti dapat meningkatkan perolehan medali secara signifikan.
+                    Namun, hal yang menarik di sini ialah bahwa cabor olimpiade masih tetap menjadi penyumbang medali terbanyak.
+                    Untuk diketahui, cabor olimpiade adalah cabor yang pasti diadakan dalam setiap event Asian Games.
+                    Hal ini berarti, Indonesia pun cukup siap bersaing untuk Asian Games mendatang.
                 </div>
-                <div class="col-lg-6">
-                    <div id="chart-title">
-                        <h3 class="mb-0"> Perolehan Medali Indonesia pada Asian Games 2018 </h3>
+                <div class="annotation text-justify">
+                    Jangan lupa tetap, dukung Indonesia di Asian Games selanjutnya, ya!
+                </div>
+                <div class="charts">
+                    <div class="col-lg-6">
+                        <div id="chart-title">
+                            <h3 class="mb-0"> Perolehan Medali Indonesia pada Asian Games 2018 Berdasarkan Jenis Cabor</h3>
+                        </div>
+                        <div class="chart-instruction text-center">Klik untuk mengganti jenis kelompok cabor</div>
+                        <div id="indonesia-sport-chart"></div>
                     </div>
-                    <div class="chart-instruction text-center">Klik legenda untuk mematikan / menghidupkan jenis medali</div>
-                    <div id="selection-sport-chart"></div>
+                    <div class="col-lg-6">
+                        <div id="chart-title">
+                            <h3 class="mb-0"> Perolehan Medali Indonesia pada Asian Games 2018 </h3>
+                        </div>
+                        <div class="chart-instruction text-center">Klik legenda untuk mematikan / menghidupkan jenis medali</div>
+                        <div id="selection-sport-chart"></div>
+                    </div>
                 </div>
             </div>
         </div>
