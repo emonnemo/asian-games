@@ -13,9 +13,6 @@ function loadIndonesiaMedals() {
       return parseInt(i);
     });
     var indonesiaBubbleChartOptions = {
-      title: {
-        text: "Indonesia in Asian Games"
-      },
       chart: {
         height: 700,
         type: "bubble",
@@ -73,13 +70,21 @@ function loadIndonesiaMedals() {
       },
       tooltip: {
         enabled: true,
+        y: {
+          title: {
+            formatter: function() {
+              return "Peringkat";
+            }
+          }
+        },
         z: {
           formatter: function(
             value,
             { series, seriesIndex, dataPointIndex, w }
           ) {
             return Math.round(value * value);
-          }
+          },
+          title: "Total medali"
         }
       },
       yaxis: {
@@ -171,7 +176,18 @@ function loadIndonesiaYearlyMedals(year) {
               }
             }
           }
-        ]
+        ],
+        tooltip: {
+          enabled: true,
+          y: {
+            formatter: function(
+              value,
+              { series, seriesIndex, dataPointIndex, w }
+            ) {
+              return parseInt(value) + " medali";
+            }
+          }
+        }
       };
 
       indonesiaYearDonutChart = new ApexCharts(
