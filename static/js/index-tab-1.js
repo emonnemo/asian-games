@@ -16,7 +16,7 @@ function loadIndonesiaMedals() {
     });
     var indonesiaBubbleChartOptions = {
       chart: {
-        height: containerHeight > 700 ? containerHeight - 210 : 700,
+        height: containerHeight * 0.7,
         type: "bubble",
         events: {
           dataPointSelection: function(event, chartContext, config) {

@@ -5,7 +5,7 @@ function loadIndonesiaSportSummaryChart() {
   $.get(format("/dashboard/api/get-indonesia-sport-summary/"), function(data) {
     var indonesiaSportSummaryChartOptions = {
       chart: {
-        height: containerHeight > 600 ? containerHeight - 300 : 600,
+        height: containerHeight * 0.5,
         type: "pie",
         events: {
           dataPointSelection: function(event, chartContext, config) {
@@ -60,7 +60,7 @@ function loadSelectionSportChart(event) {
     function(data) {
       var selectionChartOptions = {
         chart: {
-          height: containerHeight > 550 ? containerHeight - 300 : 550,
+          height: containerHeight * 0.5,
           type: "bar",
           stacked: true
         },
