@@ -27,10 +27,29 @@
   border-top: solid 2px;
   position: absolute;
   background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tab-content .charts {
+  display: flex;
+  align-items: center;
+}
+
+.tab-content .annotation {
+  padding: 0 10rem;
 }
 
 .content-1 {
   z-index: 2;
+  flex-direction: row;
+  align-items: center;
+}
+
+.content-1 .annotation {
+  padding: 0 3.3rem 0 1rem;
+  margin-bottom: 4vh;
 }
 
 .content-2 {
@@ -117,6 +136,23 @@
   font-family: "Fira Sans Extra Condensed", sans-serif;
 }
 
+.chart-instruction {
+  font-family: "Lato", sans-serif;
+  color: #b9b9b9;
+}
+
 #indonesia-sport-chart .apexcharts-tooltip {
   color: rgb(187, 52, 49);
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.content-1 .chart-instruction {
+  margin-left: 5rem;
+}
+
+.annotation {
+  font-family: "Lato", sans-serif;
 }
