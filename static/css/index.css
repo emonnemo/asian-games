@@ -114,7 +114,7 @@
   margin-left: auto;
   margin-right: auto;
   border-radius: 50%;
-  border: 2px solid #000000;
+  border: 5px solid #e4e4e4;
   overflow: hidden;
   width: 200px;
   height: 200px;
@@ -129,6 +129,7 @@
 
 .country-select {
   width: 100% !important;
+  font-family: "Lato", sans-serif;
 }
 
 #chart-title {
