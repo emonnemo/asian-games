@@ -203,7 +203,8 @@ def get_indonesia_sport_summary(request):
     result = {
         'series': series,
         'medals': [olympic, indo, etc],
-        'labels': ["Olimpiade", "Pilihan Indonesia", "Lainnya"]
+        'labels': ["Olimpiade", "Pilihan Indonesia", "Lainnya"],
+        'total': total,
     }   
     return JsonResponse(result) 
 
