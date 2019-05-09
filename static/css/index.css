@@ -117,6 +117,19 @@
   font-family: "Fira Sans Extra Condensed", sans-serif;
 }
 
+.chart-instruction {
+  font-family: "Lato", sans-serif;
+  color: #b9b9b9;
+}
+
 #indonesia-sport-chart .apexcharts-tooltip {
   color: rgb(187, 52, 49);
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.content-1 .chart-instruction {
+  margin-left: 5rem;
 }

@@ -84,7 +84,7 @@ function loadIndonesiaMedals() {
           ) {
             return Math.round(value * value);
           },
-          title: "Total medali"
+          title: "Total medali:"
         }
       },
       yaxis: {
