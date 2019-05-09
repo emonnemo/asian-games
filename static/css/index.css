@@ -156,3 +156,11 @@
 .annotation {
   font-family: "Lato", sans-serif;
 }
+
+.ag-logo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  filter: opacity(5%);
+  height: 60%;
+}
